@@ -1,0 +1,65 @@
+body {
+  padding: 5px;
+}
+
+html {
+  background: radial-gradient(rgb(200,200,200), rgb(150,150,150)); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wrapper {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  gap: 5px;
+  grid-template-areas:
+    "Top Top Top Top Top"
+    "Side Content Content Content Content"
+    "Side2 Content Content Content Content";
+}
+
+#Content {
+  grid-area: Content;
+  background-color: rgb(125, 125, 125);
+  padding: 10px;
+  border-style: solid;
+} 
+
+#sideBar {
+  grid-area: Side;
+  background-color: rgb(150, 150, 150);
+  border-style: solid;
+  padding: 10px;
+}
+
+#sideBar2 {
+  grid-area: Side2;
+  background-color: rgb(150, 150, 150);
+  border-style: solid;
+  padding: 10px;
+}
+
+#topBar {
+  background-color: rgb(85,85,85);
+  grid-area: Top;
+}
+
+#logo {
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-family: "bradley hand", cursive;
+}
+
+#search {
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+li {
+  font-size: 20px;
+}

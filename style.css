@@ -1,0 +1,641 @@
+body {
+  padding: 5px;
+}
+
+html {
+  background: radial-gradient(rgb(200,200,200), rgb(150,150,150)); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (min-width: 2350px) {
+  
+  #wrapper {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+      "Top Top Top"
+      "C1R2 C2R2 C1R3"
+      "C2R3 C1R4 C2R4"
+      "C1R5 C2R5 C1R6"
+      "C2R6 C1R7 C2R7";
+  }
+  
+  #C1 {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C1R2;
+    grid-template-areas:
+      "C1R1 C2R1 C3R1"
+      "C1R2 C2R2 C3R2";
+   }
+  
+  #C2 {
+    background-color: rgb(125, 125, 125);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C2R2;
+    grid-template-areas:
+      "C1R1 C2R1 C3R1"
+      "C1R2 C2R2 C3R2";
+  }
+  
+  #C3 {
+    background-color: rgb(125, 125, 125);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C1R3;
+    grid-template-areas:
+      "C1R1 C2R1 C3R1"
+      "C1R2 C2R2 C3R2";
+  }
+  
+  #C4 {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C2R3;
+    grid-template-areas:
+      "C1R1 C2R1 C3R1"
+      "C1R2 C2R2 C3R2";
+  }
+  
+  #C5 {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C1R4;
+    grid-template-areas:
+      "C1R1 C2R1 C3R1"
+      "C1R2 C2R2 C3R2";
+  }
+  
+  #C6 {
+    background-color: rgb(125, 125, 125);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C2R4;
+    grid-template-areas:
+      "C1R1 C2R1 C3R1"
+      "C1R2 C2R2 C3R2";
+  }
+  
+  #C7 {
+    background-color: rgb(125, 125, 125);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C1R5;
+    grid-template-areas:
+      "C1R1 C2R1 C3R1"
+      "C1R2 C2R2 C3R2";
+  }
+  
+  #C8 {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C2R5;
+    grid-template-areas:
+      "C1R1 C2R1 C3R1"
+      "C1R2 C2R2 C3R2";
+  }
+  
+  #C9 {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C1R6;
+    grid-template-areas:
+      "C1R1 C2R1 C3R1"
+      "C1R2 C2R2 C3R2";
+  }
+  
+  #C10 {
+    background-color: rgb(125, 125, 125);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C2R6;
+    grid-template-areas:
+      "C1R1 C2R1 C3R1"
+      "C1R2 C2R2 C3R2";
+  }
+  
+  #C11 {
+    background-color: rgb(125, 125, 125);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C1R7;
+    grid-template-areas:
+      "C1R1 C2R1 C3R1"
+      "C1R2 C2R2 C3R2";
+  }
+  
+  #C12 {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C2R7;
+    grid-template-areas:
+      "C1R1 C2R1 C3R1"
+      "C1R2 C2R2 C3R2";
+  }
+  
+  
+  /* Define Locations of subcatagory items*/
+  #S1 {
+    grid-area: C1R1;
+    padding: 10px;
+  }
+  
+  #S2 {
+    grid-area: C2R1;
+    padding: 10px;
+  }
+  
+  #S3 {
+    grid-area: C3R1;
+    padding: 10px;
+  }
+  
+  #S4 {
+    grid-area: C1R2;
+    padding: 10px;
+  }
+  
+  #S5 {
+    grid-area: C2R2;
+    padding: 10px;
+  }
+  
+  #S6 {
+    grid-area: C3R2;
+    padding: 10px;
+  }
+  
+  
+  /* Top Bar Definitions */
+  
+  #topBar {
+    background-color: rgb(85,85,85);
+    grid-area: Top;
+  }
+  
+  #logo {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: "bradley hand", cursive;
+  }
+  
+  #search {
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 1615px) {
+  
+  @media (max-width: 2349px) {
+  
+    #wrapper {
+      width: 70%;
+      margin: auto;
+      display: grid;
+      gap: 5px;
+      grid-template-areas:
+        "Top Top"
+        "C1R2 C2R2"
+        "C1R3 C2R3"
+        "C1R4 C2R4"
+        "C1R5 C2R5"
+        "C1R6 C2R6"
+        "C1R7 C2R7";
+    }
+    
+    #C1 {
+      background-color: rgb(150, 150, 150);
+      border-style: solid;
+      display: grid;
+      gap: 2px;
+      grid-area: C1R2;
+      grid-template-areas:
+        "C1R1 C2R1 C3R1"
+        "C1R2 C2R2 C3R2";
+     }
+    
+    #C2 {
+      background-color: rgb(125, 125, 125);
+      border-style: solid;
+      display: grid;
+      gap: 2px;
+      grid-area: C2R2;
+      grid-template-areas:
+        "C1R1 C2R1 C3R1"
+        "C1R2 C2R2 C3R2";
+    }
+    
+    #C3 {
+      background-color: rgb(125, 125, 125);
+      border-style: solid;
+      display: grid;
+      gap: 2px;
+      grid-area: C1R3;
+      grid-template-areas:
+        "C1R1 C2R1 C3R1"
+        "C1R2 C2R2 C3R2";
+    }
+    
+    #C4 {
+      background-color: rgb(150, 150, 150);
+      border-style: solid;
+      display: grid;
+      gap: 2px;
+      grid-area: C2R3;
+      grid-template-areas:
+        "C1R1 C2R1 C3R1"
+        "C1R2 C2R2 C3R2";
+    }
+    
+    #C5 {
+      background-color: rgb(150, 150, 150);
+      border-style: solid;
+      display: grid;
+      gap: 2px;
+      grid-area: C1R4;
+      grid-template-areas:
+        "C1R1 C2R1 C3R1"
+        "C1R2 C2R2 C3R2";
+    }
+    
+    #C6 {
+      background-color: rgb(125, 125, 125);
+      border-style: solid;
+      display: grid;
+      gap: 2px;
+      grid-area: C2R4;
+      grid-template-areas:
+        "C1R1 C2R1 C3R1"
+        "C1R2 C2R2 C3R2";
+    }
+    
+    #C7 {
+      background-color: rgb(125, 125, 125);
+      border-style: solid;
+      display: grid;
+      gap: 2px;
+      grid-area: C1R5;
+      grid-template-areas:
+        "C1R1 C2R1 C3R1"
+        "C1R2 C2R2 C3R2";
+    }
+    
+    #C8 {
+      background-color: rgb(150, 150, 150);
+      border-style: solid;
+      display: grid;
+      gap: 2px;
+      grid-area: C2R5;
+      grid-template-areas:
+        "C1R1 C2R1 C3R1"
+        "C1R2 C2R2 C3R2";
+    }
+    
+    #C9 {
+      background-color: rgb(150, 150, 150);
+      border-style: solid;
+      display: grid;
+      gap: 2px;
+      grid-area: C1R6;
+      grid-template-areas:
+        "C1R1 C2R1 C3R1"
+        "C1R2 C2R2 C3R2";
+    }
+    
+    #C10 {
+      background-color: rgb(125, 125, 125);
+      border-style: solid;
+      display: grid;
+      gap: 2px;
+      grid-area: C2R6;
+      grid-template-areas:
+        "C1R1 C2R1 C3R1"
+        "C1R2 C2R2 C3R2";
+    }
+    
+    #C11 {
+      background-color: rgb(125, 125, 125);
+      border-style: solid;
+      display: grid;
+      gap: 2px;
+      grid-area: C1R7;
+      grid-template-areas:
+        "C1R1 C2R1 C3R1"
+        "C1R2 C2R2 C3R2";
+    }
+    
+    #C12 {
+      background-color: rgb(150, 150, 150);
+      border-style: solid;
+      display: grid;
+      gap: 2px;
+      grid-area: C2R7;
+      grid-template-areas:
+        "C1R1 C2R1 C3R1"
+        "C1R2 C2R2 C3R2";
+    }
+    
+    
+    /* Define Locations of subcatagory items*/
+    #S1 {
+      grid-area: C1R1;
+      padding: 10px;
+    }
+    
+    #S2 {
+      grid-area: C2R1;
+      padding: 10px;
+    }
+    
+    #S3 {
+      grid-area: C3R1;
+      padding: 10px;
+    }
+    
+    #S4 {
+      grid-area: C1R2;
+      padding: 10px;
+    }
+    
+    #S5 {
+      grid-area: C2R2;
+      padding: 10px;
+    }
+    
+    #S6 {
+      grid-area: C3R2;
+      padding: 10px;
+    }
+    
+    
+    /* Top Bar Definitions */
+    
+    #topBar {
+      background-color: rgb(85,85,85);
+      grid-area: Top;
+    }
+    
+    #logo {
+      color: black;
+      padding: 10px;
+      text-align: center;
+      font-family: "bradley hand", cursive;
+    }
+    
+    #search {
+      color: black;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+}
+
+
+@media (max-width: 1615px) {
+  
+  #wrapper {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  gap: 5px;
+  grid-template-areas:
+    "Top"
+    "C1R2"
+    "C2R2"
+    "C1R3"
+    "C2R3"
+    "C1R4"
+    "C2R4"
+    "C1R5"
+    "C2R5"
+    "C1R6"
+    "C2R6"
+    "C1R7"
+    "C2R7";
+  }
+  
+  #C1 {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C1R2;
+    grid-template-areas:
+      "C1R1 C2R1"
+      "C3R1 C1R2"
+      "C2R2 C3R2";
+   }
+  
+  #C2 {
+    background-color: rgb(125, 125, 125);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C2R2;
+    grid-template-areas:
+      "C1R1 C2R1"
+      "C3R1 C1R2"
+      "C2R2 C3R2";
+  }
+  
+  #C3 {
+    background-color: rgb(125, 125, 125);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C1R3;
+    grid-template-areas:
+      "C1R1 C2R1"
+      "C3R1 C1R2"
+      "C2R2 C3R2";
+  }
+  
+  #C4 {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C2R3;
+    grid-template-areas:
+      "C1R1 C2R1"
+      "C3R1 C1R2" 
+      "C2R2 C3R2";
+  }
+  
+  #C5 {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C1R4;
+    grid-template-areas:
+      "C1R1 C2R1"
+      "C3R1 C1R2" 
+      "C2R2 C3R2";
+  }
+  
+  #C6 {
+    background-color: rgb(125, 125, 125);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C2R4;
+    grid-template-areas:
+      "C1R1 C2R1"
+      "C3R1 C1R2"
+      "C2R2 C3R2";
+  }
+  
+  #C7 {
+    background-color: rgb(125, 125, 125);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C1R5;
+    grid-template-areas:
+      "C1R1 C2R1"
+      "C3R1 C1R2"
+      "C2R2 C3R2";
+  }
+  
+  #C8 {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C2R5;
+    grid-template-areas:
+      "C1R1 C2R1"
+      "C3R1 C1R2"
+      "C2R2 C3R2";
+  }
+  
+  #C9 {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C1R6;
+    grid-template-areas:
+      "C1R1 C2R1"
+      "C3R1 C1R2"
+      "C2R2 C3R2";
+  }
+  
+  #C10 {
+    background-color: rgb(125, 125, 125);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C2R6;
+    grid-template-areas:
+      "C1R1 C2R1"
+      "C3R1 C1R2"
+      "C2R2 C3R2";
+  }
+  
+  #C11 {
+    background-color: rgb(125, 125, 125);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C1R7;
+    grid-template-areas:
+      "C1R1 C2R1"
+      "C3R1 C1R2"
+      "C2R2 C3R2";
+  }
+  
+  #C12 {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    display: grid;
+    gap: 2px;
+    grid-area: C2R7;
+    grid-template-areas:
+      "C1R1 C2R1"
+      "C3R1 C1R2"
+      "C2R2 C3R2";
+  }
+  
+  
+  /* Define Locations of subcatagory items*/
+  #S1 {
+    grid-area: C1R1;
+    padding: 10px;
+  }
+  
+  #S2 {
+    grid-area: C2R1;
+    padding: 10px;
+  }
+  
+  #S3 {
+    grid-area: C3R1;
+    padding: 10px;
+  }
+  
+  #S4 {
+    grid-area: C1R2;
+    padding: 10px;
+  }
+  
+  #S5 {
+    grid-area: C2R2;
+    padding: 10px;
+  }
+  
+  #S6 {
+    grid-area: C3R2;
+    padding: 10px;
+  }
+  
+  
+  /* Top Bar Definitions */
+  
+  #topBar {
+    background-color: rgb(85,85,85);
+    grid-area: Top;
+  }
+  
+  #logo {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: "bradley hand", cursive;
+  }
+  
+  #search {
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+}
