@@ -1,641 +1,447 @@
-body {
-  padding: 5px;
-}
-
 html {
-  background: radial-gradient(rgb(200,200,200), rgb(150,150,150)); 
+  background: white; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-@media (min-width: 2350px) {
-  
-  #wrapper {
-    width: 70%;
-    margin: auto;
-    display: grid;
-    gap: 5px;
-    grid-template-areas:
-      "Top Top Top"
-      "C1R2 C2R2 C1R3"
-      "C2R3 C1R4 C2R4"
-      "C1R5 C2R5 C1R6"
-      "C2R6 C1R7 C2R7";
-  }
-  
-  #C1 {
-    background-color: rgb(150, 150, 150);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C1R2;
-    grid-template-areas:
-      "C1R1 C2R1 C3R1"
-      "C1R2 C2R2 C3R2";
-   }
-  
-  #C2 {
-    background-color: rgb(125, 125, 125);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C2R2;
-    grid-template-areas:
-      "C1R1 C2R1 C3R1"
-      "C1R2 C2R2 C3R2";
-  }
-  
-  #C3 {
-    background-color: rgb(125, 125, 125);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C1R3;
-    grid-template-areas:
-      "C1R1 C2R1 C3R1"
-      "C1R2 C2R2 C3R2";
-  }
-  
-  #C4 {
-    background-color: rgb(150, 150, 150);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C2R3;
-    grid-template-areas:
-      "C1R1 C2R1 C3R1"
-      "C1R2 C2R2 C3R2";
-  }
-  
-  #C5 {
-    background-color: rgb(150, 150, 150);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C1R4;
-    grid-template-areas:
-      "C1R1 C2R1 C3R1"
-      "C1R2 C2R2 C3R2";
-  }
-  
-  #C6 {
-    background-color: rgb(125, 125, 125);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C2R4;
-    grid-template-areas:
-      "C1R1 C2R1 C3R1"
-      "C1R2 C2R2 C3R2";
-  }
-  
-  #C7 {
-    background-color: rgb(125, 125, 125);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C1R5;
-    grid-template-areas:
-      "C1R1 C2R1 C3R1"
-      "C1R2 C2R2 C3R2";
-  }
-  
-  #C8 {
-    background-color: rgb(150, 150, 150);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C2R5;
-    grid-template-areas:
-      "C1R1 C2R1 C3R1"
-      "C1R2 C2R2 C3R2";
-  }
-  
-  #C9 {
-    background-color: rgb(150, 150, 150);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C1R6;
-    grid-template-areas:
-      "C1R1 C2R1 C3R1"
-      "C1R2 C2R2 C3R2";
-  }
-  
-  #C10 {
-    background-color: rgb(125, 125, 125);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C2R6;
-    grid-template-areas:
-      "C1R1 C2R1 C3R1"
-      "C1R2 C2R2 C3R2";
-  }
-  
-  #C11 {
-    background-color: rgb(125, 125, 125);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C1R7;
-    grid-template-areas:
-      "C1R1 C2R1 C3R1"
-      "C1R2 C2R2 C3R2";
-  }
-  
-  #C12 {
-    background-color: rgb(150, 150, 150);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C2R7;
-    grid-template-areas:
-      "C1R1 C2R1 C3R1"
-      "C1R2 C2R2 C3R2";
-  }
-  
-  
-  /* Define Locations of subcatagory items*/
-  #S1 {
-    grid-area: C1R1;
-    padding: 10px;
-  }
-  
-  #S2 {
-    grid-area: C2R1;
-    padding: 10px;
-  }
-  
-  #S3 {
-    grid-area: C3R1;
-    padding: 10px;
-  }
-  
-  #S4 {
-    grid-area: C1R2;
-    padding: 10px;
-  }
-  
-  #S5 {
-    grid-area: C2R2;
-    padding: 10px;
-  }
-  
-  #S6 {
-    grid-area: C3R2;
-    padding: 10px;
-  }
-  
-  
-  /* Top Bar Definitions */
-  
-  #topBar {
-    background-color: rgb(85,85,85);
-    grid-area: Top;
-  }
-  
-  #logo {
-    color: black;
-    padding: 10px;
-    text-align: center;
-    font-family: "bradley hand", cursive;
-  }
-  
-  #search {
-    color: black;
-    padding: 10px;
-    text-align: center;
-  }
-}
-
-
-@media (min-width: 1615px) {
-  
-  @media (max-width: 2349px) {
-  
-    #wrapper {
-      width: 70%;
-      margin: auto;
-      display: grid;
-      gap: 5px;
-      grid-template-areas:
-        "Top Top"
-        "C1R2 C2R2"
-        "C1R3 C2R3"
-        "C1R4 C2R4"
-        "C1R5 C2R5"
-        "C1R6 C2R6"
-        "C1R7 C2R7";
-    }
-    
-    #C1 {
-      background-color: rgb(150, 150, 150);
-      border-style: solid;
-      display: grid;
-      gap: 2px;
-      grid-area: C1R2;
-      grid-template-areas:
-        "C1R1 C2R1 C3R1"
-        "C1R2 C2R2 C3R2";
-     }
-    
-    #C2 {
-      background-color: rgb(125, 125, 125);
-      border-style: solid;
-      display: grid;
-      gap: 2px;
-      grid-area: C2R2;
-      grid-template-areas:
-        "C1R1 C2R1 C3R1"
-        "C1R2 C2R2 C3R2";
-    }
-    
-    #C3 {
-      background-color: rgb(125, 125, 125);
-      border-style: solid;
-      display: grid;
-      gap: 2px;
-      grid-area: C1R3;
-      grid-template-areas:
-        "C1R1 C2R1 C3R1"
-        "C1R2 C2R2 C3R2";
-    }
-    
-    #C4 {
-      background-color: rgb(150, 150, 150);
-      border-style: solid;
-      display: grid;
-      gap: 2px;
-      grid-area: C2R3;
-      grid-template-areas:
-        "C1R1 C2R1 C3R1"
-        "C1R2 C2R2 C3R2";
-    }
-    
-    #C5 {
-      background-color: rgb(150, 150, 150);
-      border-style: solid;
-      display: grid;
-      gap: 2px;
-      grid-area: C1R4;
-      grid-template-areas:
-        "C1R1 C2R1 C3R1"
-        "C1R2 C2R2 C3R2";
-    }
-    
-    #C6 {
-      background-color: rgb(125, 125, 125);
-      border-style: solid;
-      display: grid;
-      gap: 2px;
-      grid-area: C2R4;
-      grid-template-areas:
-        "C1R1 C2R1 C3R1"
-        "C1R2 C2R2 C3R2";
-    }
-    
-    #C7 {
-      background-color: rgb(125, 125, 125);
-      border-style: solid;
-      display: grid;
-      gap: 2px;
-      grid-area: C1R5;
-      grid-template-areas:
-        "C1R1 C2R1 C3R1"
-        "C1R2 C2R2 C3R2";
-    }
-    
-    #C8 {
-      background-color: rgb(150, 150, 150);
-      border-style: solid;
-      display: grid;
-      gap: 2px;
-      grid-area: C2R5;
-      grid-template-areas:
-        "C1R1 C2R1 C3R1"
-        "C1R2 C2R2 C3R2";
-    }
-    
-    #C9 {
-      background-color: rgb(150, 150, 150);
-      border-style: solid;
-      display: grid;
-      gap: 2px;
-      grid-area: C1R6;
-      grid-template-areas:
-        "C1R1 C2R1 C3R1"
-        "C1R2 C2R2 C3R2";
-    }
-    
-    #C10 {
-      background-color: rgb(125, 125, 125);
-      border-style: solid;
-      display: grid;
-      gap: 2px;
-      grid-area: C2R6;
-      grid-template-areas:
-        "C1R1 C2R1 C3R1"
-        "C1R2 C2R2 C3R2";
-    }
-    
-    #C11 {
-      background-color: rgb(125, 125, 125);
-      border-style: solid;
-      display: grid;
-      gap: 2px;
-      grid-area: C1R7;
-      grid-template-areas:
-        "C1R1 C2R1 C3R1"
-        "C1R2 C2R2 C3R2";
-    }
-    
-    #C12 {
-      background-color: rgb(150, 150, 150);
-      border-style: solid;
-      display: grid;
-      gap: 2px;
-      grid-area: C2R7;
-      grid-template-areas:
-        "C1R1 C2R1 C3R1"
-        "C1R2 C2R2 C3R2";
-    }
-    
-    
-    /* Define Locations of subcatagory items*/
-    #S1 {
-      grid-area: C1R1;
-      padding: 10px;
-    }
-    
-    #S2 {
-      grid-area: C2R1;
-      padding: 10px;
-    }
-    
-    #S3 {
-      grid-area: C3R1;
-      padding: 10px;
-    }
-    
-    #S4 {
-      grid-area: C1R2;
-      padding: 10px;
-    }
-    
-    #S5 {
-      grid-area: C2R2;
-      padding: 10px;
-    }
-    
-    #S6 {
-      grid-area: C3R2;
-      padding: 10px;
-    }
-    
-    
-    /* Top Bar Definitions */
-    
-    #topBar {
-      background-color: rgb(85,85,85);
-      grid-area: Top;
-    }
-    
-    #logo {
-      color: black;
-      padding: 10px;
-      text-align: center;
-      font-family: "bradley hand", cursive;
-    }
-    
-    #search {
-      color: black;
-      padding: 10px;
-      text-align: center;
-    }
-  }
-}
-
-
-@media (max-width: 1615px) {
-  
-  #wrapper {
-  width: 70%;
+#wrapper {
+  width: 100%;
   margin: auto;
   display: grid;
   gap: 5px;
   grid-template-areas:
-    "Top"
-    "C1R2"
-    "C2R2"
-    "C1R3"
-    "C2R3"
-    "C1R4"
-    "C2R4"
-    "C1R5"
-    "C2R5"
-    "C1R6"
-    "C2R6"
-    "C1R7"
-    "C2R7";
-  }
-  
-  #C1 {
-    background-color: rgb(150, 150, 150);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C1R2;
-    grid-template-areas:
-      "C1R1 C2R1"
-      "C3R1 C1R2"
-      "C2R2 C3R2";
-   }
-  
-  #C2 {
-    background-color: rgb(125, 125, 125);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C2R2;
-    grid-template-areas:
-      "C1R1 C2R1"
-      "C3R1 C1R2"
-      "C2R2 C3R2";
-  }
-  
-  #C3 {
-    background-color: rgb(125, 125, 125);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C1R3;
-    grid-template-areas:
-      "C1R1 C2R1"
-      "C3R1 C1R2"
-      "C2R2 C3R2";
-  }
-  
-  #C4 {
-    background-color: rgb(150, 150, 150);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C2R3;
-    grid-template-areas:
-      "C1R1 C2R1"
-      "C3R1 C1R2" 
-      "C2R2 C3R2";
-  }
-  
-  #C5 {
-    background-color: rgb(150, 150, 150);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C1R4;
-    grid-template-areas:
-      "C1R1 C2R1"
-      "C3R1 C1R2" 
-      "C2R2 C3R2";
-  }
-  
-  #C6 {
-    background-color: rgb(125, 125, 125);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C2R4;
-    grid-template-areas:
-      "C1R1 C2R1"
-      "C3R1 C1R2"
-      "C2R2 C3R2";
-  }
-  
-  #C7 {
-    background-color: rgb(125, 125, 125);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C1R5;
-    grid-template-areas:
-      "C1R1 C2R1"
-      "C3R1 C1R2"
-      "C2R2 C3R2";
-  }
-  
-  #C8 {
-    background-color: rgb(150, 150, 150);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C2R5;
-    grid-template-areas:
-      "C1R1 C2R1"
-      "C3R1 C1R2"
-      "C2R2 C3R2";
-  }
-  
-  #C9 {
-    background-color: rgb(150, 150, 150);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C1R6;
-    grid-template-areas:
-      "C1R1 C2R1"
-      "C3R1 C1R2"
-      "C2R2 C3R2";
-  }
-  
-  #C10 {
-    background-color: rgb(125, 125, 125);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C2R6;
-    grid-template-areas:
-      "C1R1 C2R1"
-      "C3R1 C1R2"
-      "C2R2 C3R2";
-  }
-  
-  #C11 {
-    background-color: rgb(125, 125, 125);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C1R7;
-    grid-template-areas:
-      "C1R1 C2R1"
-      "C3R1 C1R2"
-      "C2R2 C3R2";
-  }
-  
-  #C12 {
-    background-color: rgb(150, 150, 150);
-    border-style: solid;
-    display: grid;
-    gap: 2px;
-    grid-area: C2R7;
-    grid-template-areas:
-      "C1R1 C2R1"
-      "C3R1 C1R2"
-      "C2R2 C3R2";
-  }
-  
-  
-  /* Define Locations of subcatagory items*/
-  #S1 {
-    grid-area: C1R1;
-    padding: 10px;
-  }
-  
-  #S2 {
-    grid-area: C2R1;
-    padding: 10px;
-  }
-  
-  #S3 {
-    grid-area: C3R1;
-    padding: 10px;
-  }
-  
-  #S4 {
-    grid-area: C1R2;
-    padding: 10px;
-  }
-  
-  #S5 {
-    grid-area: C2R2;
-    padding: 10px;
-  }
-  
-  #S6 {
-    grid-area: C3R2;
-    padding: 10px;
-  }
-  
-  
-  /* Top Bar Definitions */
-  
+    "Top Top Top"
+    "Content Content Content"
+    "Footer Footer Footer";
+}
+
+#Eno {
+  display: block;
+  margin: auto;
+  grid-area: top;
+}
+
+#c1 {
+  grid-area: c1;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c2 {
+  grid-area: c2;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c3 {
+  grid-area: c3;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c4 {
+  grid-area: c4;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c5 {
+  grid-area: c5;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c6 {
+  grid-area: c6;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c7 {
+  grid-area: c7;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c8 {
+  grid-area: c8;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c9 {
+  grid-area: c9;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c10 {
+  grid-area: c10;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c11 {
+  grid-area: c11;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c12 {
+  grid-area: c12;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c13 {
+  grid-area: c13;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#c14 {
+  grid-area: c14;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+
+@media (min-width: 2350px) {
   #topBar {
-    background-color: rgb(85,85,85);
+    margin: auto;
+    display: grid;
     grid-area: Top;
+    grid-template-areas:
+      "top top c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13 c14";
   }
-  
-  #logo {
-    color: black;
+  #tiles {
+    width: 100%;
+    grid-area: Content;
+    margin: auto;
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+      "t1 t2 t3 t4";
+  }
+  #t1 {
+    grid-area: t1;
     padding: 10px;
     text-align: center;
-    font-family: "bradley hand", cursive;
+    width: 25%;
+    margin: auto;
   }
-  
-  #search {
-    color: black;
+  #t2 {
+    grid-area: t2;
     padding: 10px;
     text-align: center;
+    width: 25%;
+    margin: auto;
+  }
+  #t3 {
+    grid-area: t3;
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+  }
+  #t4 {
+    grid-area: t4;
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+  }
+  #footer {
+    grid-area: Footer;
+    background-color: rgb(30, 30, 114);
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+@media (min-width: 1615px) {
+  
+  @media (max-width: 2349px) {
+    #topBar {
+      margin: auto;
+      display: grid;
+      grid-area: Top;
+      grid-template-areas:
+        "top top c1 c2 c3 c4 c5 c6 c7"
+        "top top c8 c9 c10 c11 c12 c13 c14";
+    }
+    #tiles {
+      width: 100%;
+      grid-area: Content;
+      margin: auto;
+      display: grid;
+      gap: 5px;
+      grid-template-areas:
+        "t1 t2"
+        "t3 t4";
+    }
+    #t1 {
+      grid-area: t1;
+      padding: 10px;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+    }
+    #t2 {
+      grid-area: t2;
+      padding: 10px;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+    }
+    #t3 {
+      grid-area: t3;
+      padding: 10px;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+    }
+    #t4 {
+      grid-area: t4;
+      padding: 10px;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+    }
+    #footer {
+      grid-area: Footer;
+      background-color: rgb(30, 30, 114);
+      width: 100%;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+  }
+}
+
+@media (min-width: 784px) {
+  
+  @media (max-width: 1614px) {
+  #topBar {
+    margin: auto;
+    display: grid;
+    grid-area: Top;
+    grid-template-areas:
+      "top c1 c2"
+      "top c3 c4"
+      "top c5 c6"
+      "top c7 c8"
+      "top c9 c10"
+      "top c11 c12"
+      "top c13 c14";
+    }
+    #tiles {
+      width: 100%;
+      grid-area: Content;
+      margin: auto;
+      display: grid;
+      gap: 5px;
+      grid-template-areas:
+        "t1 t2"
+        "t3 t4";
+    }
+    #t1 {
+      grid-area: t1;
+      padding: 10px;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+    }
+    #t2 {
+      grid-area: t2;
+      padding: 10px;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+    }
+    #t3 {
+      grid-area: t3;
+      padding: 10px;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+    }
+    #t4 {
+      grid-area: t4;
+      padding: 10px;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+    }
+    #footer {
+      grid-area: Footer;
+      background-color: rgb(30, 30, 114);
+      width: 100%;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+  }
+}
+
+
+@media (min-width: 445px) {
+
+  @media (max-width: 783px) {
+  #topBar {
+    margin: auto;
+    display: grid;
+    grid-area: Top;
+    grid-template-areas:
+      "top"
+      "c1"
+      "c2"
+      "c3"
+      "c4"
+      "c5"
+      "c6"
+      "c7"
+      "c8"
+      "c9"
+      "c10"
+      "c11"
+      "c12"
+      "c13"
+      "c14";
+    }
+    #tiles {
+      width: 100%;
+      grid-area: Content;
+      margin: auto;
+      display: grid;
+      gap: 5px;
+      grid-template-areas:
+        "t1"
+        "t2"
+        "t3"
+        "t4";
+    }
+    #t1 {
+      grid-area: t1;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      margin: auto;
+    }
+    #t2 {
+      grid-area: t2;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      margin: auto;
+    }
+    #t3 {
+      grid-area: t3;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      margin: auto;
+    }
+    #t4 {
+      grid-area: t4;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      margin: auto;
+    }
+    #footer {
+      grid-area: Footer;
+      background-color: rgb(30, 30, 114);
+      width: 100%;
+      position: relative;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+  }
+}
+
+@media (max-width: 444px) {
+  #topBar {
+    margin: auto;
+    display: grid;
+    grid-area: Top;
+    grid-template-areas:
+      "top"
+      "c1"
+      "c2"
+      "c3"
+      "c4"
+      "c5"
+      "c6"
+      "c7"
+      "c8"
+      "c9"
+      "c10"
+      "c11"
+      "c12"
+      "c13"
+      "c14";
+  }
+  #tiles {
+    width: 100%;
+    grid-area: Content;
+    margin: auto;
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+      "t1"
+      "t2"
+      "t3"
+      "t4";
+  }
+  #t1 {
+    grid-area: t1;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  #t2 {
+    grid-area: t2;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  #t3 {
+    grid-area: t3;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  #t4 {
+    grid-area: t4;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  #Eno {
+    height: 80%;
+    width: 80%;
+  }
+  #footer {
+    grid-area: Footer;
+    background-color: rgb(30, 30, 114);
+    width: 100%;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
   }
 }
