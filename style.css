@@ -108,6 +108,39 @@ html {
   text-align: center;
 }
 
+#t1 {
+  grid-area: t1;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+#t2 {
+  grid-area: t2;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+#t3 {
+  grid-area: t3;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+#t4 {
+  grid-area: t4;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
 
 @media (min-width: 2350px) {
   #topBar {
@@ -125,34 +158,6 @@ html {
     gap: 5px;
     grid-template-areas:
       "t1 t2 t3 t4";
-  }
-  #t1 {
-    grid-area: t1;
-    padding: 10px;
-    text-align: center;
-    width: 25%;
-    margin: auto;
-  }
-  #t2 {
-    grid-area: t2;
-    padding: 10px;
-    text-align: center;
-    width: 25%;
-    margin: auto;
-  }
-  #t3 {
-    grid-area: t3;
-    padding: 10px;
-    text-align: center;
-    width: 25%;
-    margin: auto;
-  }
-  #t4 {
-    grid-area: t4;
-    padding: 10px;
-    text-align: center;
-    width: 25%;
-    margin: auto;
   }
   #footer {
     grid-area: Footer;
@@ -185,34 +190,6 @@ html {
       grid-template-areas:
         "t1 t2"
         "t3 t4";
-    }
-    #t1 {
-      grid-area: t1;
-      padding: 10px;
-      text-align: center;
-      width: 50%;
-      margin: auto;
-    }
-    #t2 {
-      grid-area: t2;
-      padding: 10px;
-      text-align: center;
-      width: 50%;
-      margin: auto;
-    }
-    #t3 {
-      grid-area: t3;
-      padding: 10px;
-      text-align: center;
-      width: 50%;
-      margin: auto;
-    }
-    #t4 {
-      grid-area: t4;
-      padding: 10px;
-      text-align: center;
-      width: 50%;
-      margin: auto;
     }
     #footer {
       grid-area: Footer;
@@ -251,34 +228,6 @@ html {
       grid-template-areas:
         "t1 t2"
         "t3 t4";
-    }
-    #t1 {
-      grid-area: t1;
-      padding: 10px;
-      text-align: center;
-      width: 50%;
-      margin: auto;
-    }
-    #t2 {
-      grid-area: t2;
-      padding: 10px;
-      text-align: center;
-      width: 50%;
-      margin: auto;
-    }
-    #t3 {
-      grid-area: t3;
-      padding: 10px;
-      text-align: center;
-      width: 50%;
-      margin: auto;
-    }
-    #t4 {
-      grid-area: t4;
-      padding: 10px;
-      text-align: center;
-      width: 50%;
-      margin: auto;
     }
     #footer {
       grid-area: Footer;
@@ -329,34 +278,6 @@ html {
         "t3"
         "t4";
     }
-    #t1 {
-      grid-area: t1;
-      padding: 10px;
-      text-align: center;
-      width: 100%;
-      margin: auto;
-    }
-    #t2 {
-      grid-area: t2;
-      padding: 10px;
-      text-align: center;
-      width: 100%;
-      margin: auto;
-    }
-    #t3 {
-      grid-area: t3;
-      padding: 10px;
-      text-align: center;
-      width: 100%;
-      margin: auto;
-    }
-    #t4 {
-      grid-area: t4;
-      padding: 10px;
-      text-align: center;
-      width: 100%;
-      margin: auto;
-    }
     #footer {
       grid-area: Footer;
       background-color: rgb(30, 30, 114);
@@ -392,7 +313,7 @@ html {
       "c14";
   }
   #tiles {
-    width: 100%;
+    width: 95%;
     grid-area: Content;
     margin: auto;
     display: grid;
@@ -402,34 +323,6 @@ html {
       "t2"
       "t3"
       "t4";
-  }
-  #t1 {
-    grid-area: t1;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    margin: auto;
-  }
-  #t2 {
-    grid-area: t2;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    margin: auto;
-  }
-  #t3 {
-    grid-area: t3;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    margin: auto;
-  }
-  #t4 {
-    grid-area: t4;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    margin: auto;
   }
   #Eno {
     height: 80%;
