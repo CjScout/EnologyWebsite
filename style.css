@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 html {
   background: white; 
   -webkit-background-size: cover;
@@ -13,9 +16,16 @@ html {
   gap: 5px;
   grid-template-areas:
     "Top Top Top"
-    "Content Content Content"
-    "Footer Footer Footer";
+    "Content Content Content";
 }
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+a:active { text-decoration: none; }
 
 #Eno {
   display: block;
@@ -25,121 +35,277 @@ html {
 
 #c1 {
   grid-area: c1;
-  padding: 10px;
-  margin: auto;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-family: 'Source Code Pro';
 }
 #c2 {
   grid-area: c2;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
   padding: 10px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-family: 'Source Code Pro';
 }
 #c3 {
   grid-area: c3;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
   padding: 10px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-family: 'Source Code Pro';
 }
 #c4 {
   grid-area: c4;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
   padding: 10px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-family: 'Source Code Pro';
 }
 #c5 {
   grid-area: c5;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
   padding: 10px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-family: 'Source Code Pro';
 }
 #c6 {
   grid-area: c6;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
   padding: 10px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-family: 'Source Code Pro';
 }
 #c7 {
   grid-area: c7;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
   padding: 10px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-family: 'Source Code Pro';
 }
 #c8 {
   grid-area: c8;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
   padding: 10px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-family: 'Source Code Pro';
 }
 #c9 {
   grid-area: c9;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
   padding: 10px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-family: 'Source Code Pro';
 }
 #c10 {
   grid-area: c10;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
   padding: 10px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-family: 'Source Code Pro';
 }
 #c11 {
   grid-area: c11;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
   padding: 10px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-family: 'Source Code Pro';
 }
 #c12 {
   grid-area: c12;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
   padding: 10px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-}
-#c13 {
-  grid-area: c13;
-  padding: 10px;
-  margin: auto;
-  text-align: center;
-}
-#c14 {
-  grid-area: c14;
-  padding: 10px;
-  margin: auto;
-  text-align: center;
+  font-family: 'Source Code Pro';
 }
 
-#t1 {
-  grid-area: t1;
-  border-style: solid;
+
+
+
+
+
+
+
+
+
+#l1 {
+  grid-area: l1;
+  color: rgb(75,75,75);
   padding: 10px;
-  text-align: center;
-  width: 90%;
   margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
 }
-#t2 {
-  grid-area: t2;
-  border-style: solid;
+#l2 {
+  grid-area: l2;
+  color: rgb(75,75,75);
   padding: 10px;
-  text-align: center;
-  width: 90%;
   margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
 }
-#t3 {
-  grid-area: t3;
-  border-style: solid;
+#l3 {
+  grid-area: l3;
+  color: rgb(75,75,75);
   padding: 10px;
-  text-align: center;
-  width: 90%;
   margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
 }
-#t4 {
-  grid-area: t4;
-  border-style: solid;
+#l4 {
+  grid-area: l4;
+  color: rgb(75,75,75);
   padding: 10px;
-  text-align: center;
-  width: 90%;
   margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
 }
+#l5 {
+  grid-area: l5;
+  color: rgb(75,75,75);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+#l6 {
+  grid-area: l6;
+  color: rgb(75,75,75);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+#l7 {
+  grid-area: l7;
+  color: rgb(75,75,75);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+#l8 {
+  grid-area: l8;
+  color: rgb(75,75,75);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+#l9 {
+  grid-area: l9;
+  color: rgb(75,75,75);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+#l10 {
+  grid-area: l10;
+  color: rgb(75,75,75);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+#l11 {
+  grid-area: l11;
+  color: rgb(75,75,75);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+#l12 {
+  grid-area: l12;
+  color: rgb(75,75,75);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+#l13 {
+  grid-area: l13;
+  color: rgb(75,75,75);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+#l14 {
+  grid-area: l14;
+  color: rgb(75,75,75);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+
+
+
+
+
+
+
 
 
 @media (min-width: 2350px) {
@@ -148,25 +314,19 @@ html {
     display: grid;
     grid-area: Top;
     grid-template-areas:
-      "top top c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13 c14";
+      "top top l1 l2 l3 l4 l5 l6 l7 l8";
   }
   #tiles {
     width: 100%;
+    height: 500%;
     grid-area: Content;
     margin: auto;
     display: grid;
     gap: 5px;
     grid-template-areas:
-      "t1 t2 t3 t4";
-  }
-  #footer {
-    grid-area: Footer;
-    background-color: rgb(30, 30, 114);
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+      "c1 c2 c3 c4"
+      "c5 c6 c7 c8"
+      "c9 c10 c11 c12";
   }
 }
 
@@ -178,65 +338,54 @@ html {
       display: grid;
       grid-area: Top;
       grid-template-areas:
-        "top top c1 c2 c3 c4 c5 c6 c7"
-        "top top c8 c9 c10 c11 c12 c13 c14";
+        "top top l1 l2 l3 l4"
+        "top top l5 l6 l7 l8";
     }
     #tiles {
       width: 100%;
+      height: 500%;
       grid-area: Content;
       margin: auto;
       display: grid;
       gap: 5px;
       grid-template-areas:
-        "t1 t2"
-        "t3 t4";
-    }
-    #footer {
-      grid-area: Footer;
-      background-color: rgb(30, 30, 114);
-      width: 100%;
-      position: absolute;
-      left: 0px;
-      right: 0px;
-      bottom: 0px;
+        "c1 c2"
+        "c3 c4"
+        "c5 c6"
+        "c7 c8"
+        "c9 c10"
+        "c11 c12";
     }
   }
 }
 
-@media (min-width: 784px) {
+@media (min-width: 830px) {
   
   @media (max-width: 1614px) {
-  #topBar {
-    margin: auto;
-    display: grid;
-    grid-area: Top;
-    grid-template-areas:
-      "top c1 c2"
-      "top c3 c4"
-      "top c5 c6"
-      "top c7 c8"
-      "top c9 c10"
-      "top c11 c12"
-      "top c13 c14";
+    #topBar {
+      margin: auto;
+      display: grid;
+      grid-area: Top;
+      grid-template-areas:
+        "top top l1 l2"
+        "top top l3 l4"
+        "top top l5 l6"
+        "top top l7 l8";
     }
     #tiles {
       width: 100%;
+      height: 500%;
       grid-area: Content;
       margin: auto;
       display: grid;
       gap: 5px;
       grid-template-areas:
-        "t1 t2"
-        "t3 t4";
-    }
-    #footer {
-      grid-area: Footer;
-      background-color: rgb(30, 30, 114);
-      width: 100%;
-      position: absolute;
-      left: 0px;
-      right: 0px;
-      bottom: 0px;
+        "c1 c2"
+        "c3 c4"
+        "c5 c6"
+        "c7 c8"
+        "c9 c10"
+        "c11 c12";
     }
   }
 }
@@ -244,48 +393,38 @@ html {
 
 @media (min-width: 445px) {
 
-  @media (max-width: 783px) {
-  #topBar {
-    margin: auto;
-    display: grid;
-    grid-area: Top;
-    grid-template-areas:
-      "top"
-      "c1"
-      "c2"
-      "c3"
-      "c4"
-      "c5"
-      "c6"
-      "c7"
-      "c8"
-      "c9"
-      "c10"
-      "c11"
-      "c12"
-      "c13"
-      "c14";
+  @media (max-width: 829px) {
+    #topBar {
+      margin: auto;
+      display: grid;
+      grid-area: Top;
+      grid-template-areas:
+        "top top"
+        "l1 l2"
+        "l3 l4"
+        "l5 l6"
+        "l7 l8";
     }
     #tiles {
       width: 100%;
+      height: 500%;
       grid-area: Content;
       margin: auto;
       display: grid;
       gap: 5px;
       grid-template-areas:
-        "t1"
-        "t2"
-        "t3"
-        "t4";
-    }
-    #footer {
-      grid-area: Footer;
-      background-color: rgb(30, 30, 114);
-      width: 100%;
-      position: relative;
-      left: 0px;
-      right: 0px;
-      bottom: 0px;
+        "c1"
+        "c2"
+        "c3"
+        "c4"
+        "c5"
+        "c6"
+        "c7"
+        "c8"
+        "c9"
+        "c10"
+        "c11"
+        "c12";
     }
   }
 }
@@ -296,7 +435,20 @@ html {
     display: grid;
     grid-area: Top;
     grid-template-areas:
-      "top"
+      "top top"
+      "l1 l2"
+      "l3 l4"
+      "l5 l6"
+      "l7 l8";
+  }
+  #tiles {
+    width: 100%;
+    height: 500%;
+    grid-area: Content;
+    margin: auto;
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
       "c1"
       "c2"
       "c3"
@@ -308,33 +460,10 @@ html {
       "c9"
       "c10"
       "c11"
-      "c12"
-      "c13"
-      "c14";
-  }
-  #tiles {
-    width: 95%;
-    grid-area: Content;
-    margin: auto;
-    display: grid;
-    gap: 5px;
-    grid-template-areas:
-      "t1"
-      "t2"
-      "t3"
-      "t4";
+      "c12";
   }
   #Eno {
     height: 80%;
     width: 80%;
-  }
-  #footer {
-    grid-area: Footer;
-    background-color: rgb(30, 30, 114);
-    width: 100%;
-    position: relative;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
   }
 }
