@@ -176,14 +176,18 @@ a:active { text-decoration: none; }
   text-align: center;
   font-family: 'Source Code Pro';
 }
-
-
-
-
-
-
-
-
+#c13 {
+  grid-area: c13;
+  color: rgb(50,50,50);
+  height: 100%;
+  width: 100%;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Source Code Pro';
+}
 
 
 #l1 {
@@ -300,7 +304,14 @@ a:active { text-decoration: none; }
 }
 
 
-
+#ll1, #ll2, #l13, #ll4, #ll5, #ll6, #ll7, #ll8, #ll9, #ll10, #ll11, #ll12, #ll13 {
+  grid-area: side;
+  color: rgb(75,75,75);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
 
 
 
@@ -324,9 +335,18 @@ a:active { text-decoration: none; }
     display: grid;
     gap: 5px;
     grid-template-areas:
-      "c1 c2 c3 c4"
-      "c5 c6 c7 c8"
-      "c9 c10 c11 c12";
+      "side c1"
+      "side c2"
+      "side c3"
+      "side c4"
+      "side c5"
+      "side c6"
+      "side c7"
+      "side c8"
+      "side c9"
+      "side c10"
+      "side c11"
+      "side c12";
   }
 }
 
