@@ -1,0 +1,9 @@
+Local Links + Ports
+
+Virtual Machine Server: 10.1.10.8
+
+Main Eno Website: 10.1.10.12:80
+Room Documentation: 10.1.10.12:81
+IPv4 Visualizer: 10.1.10.12:82
+
+Docker Server: 10.1.10.12:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login
