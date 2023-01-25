@@ -37,157 +37,121 @@ a:active { text-decoration: none; }
   grid-area: c1;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  width: 70%;
+  padding: 3px;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
 #c2 {
   grid-area: c2;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
+  width: 70%;
   padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
 #c3 {
   grid-area: c3;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
+  width: 70%;
   padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
 #c4 {
   grid-area: c4;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
+  width: 70%;
   padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
 #c5 {
   grid-area: c5;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
+  width: 70%;
   padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
 #c6 {
   grid-area: c6;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
+  width: 70%;
   padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
 #c7 {
   grid-area: c7;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
-  padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  width: 70%;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
 #c8 {
   grid-area: c8;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
+  width: 70%;
   padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
 #c9 {
   grid-area: c9;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
+  width: 70%;
   padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
 #c10 {
   grid-area: c10;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
+  width: 70%;
   padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
 #c11 {
   grid-area: c11;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
+  width: 70%;
   padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
 #c12 {
   grid-area: c12;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
+  width: 70%;
   padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
 #c13 {
   grid-area: c13;
   color: rgb(50,50,50);
   height: 100%;
-  width: 100%;
+  width: 70%;
   padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: auto;
   font-family: 'Source Code Pro';
 }
+
+
+
 
 
 #l1 {
@@ -270,51 +234,15 @@ a:active { text-decoration: none; }
   text-align: center;
   font-family: 'IBM Plex Mono', monospace;
 }
-#l11 {
-  grid-area: l11;
-  color: rgb(75,75,75);
-  padding: 10px;
-  margin: auto;
-  text-align: center;
-  font-family: 'IBM Plex Mono', monospace;
-}
-#l12 {
-  grid-area: l12;
-  color: rgb(75,75,75);
-  padding: 10px;
-  margin: auto;
-  text-align: center;
-  font-family: 'IBM Plex Mono', monospace;
-}
-#l13 {
-  grid-area: l13;
-  color: rgb(75,75,75);
-  padding: 10px;
-  margin: auto;
-  text-align: center;
-  font-family: 'IBM Plex Mono', monospace;
-}
-#l14 {
-  grid-area: l14;
-  color: rgb(75,75,75);
-  padding: 10px;
-  margin: auto;
-  text-align: center;
-  font-family: 'IBM Plex Mono', monospace;
-}
 
 
-#ll1, #ll2, #l13, #ll4, #ll5, #ll6, #ll7, #ll8, #ll9, #ll10, #ll11, #ll12, #ll13 {
+#llt, #ll1, #ll2, #ll3, #ll4, #ll5, #ll6, #ll7, #ll8, #ll9, #ll10, #ll11, #ll12, #ll13 {
+  list-style-type: none;
   grid-area: side;
   color: rgb(75,75,75);
-  padding: 10px;
-  margin: auto;
   text-align: center;
   font-family: 'IBM Plex Mono', monospace;
 }
-
-
-
 
 
 
@@ -329,24 +257,25 @@ a:active { text-decoration: none; }
   }
   #tiles {
     width: 100%;
-    height: 500%;
+    height: 100%;
     grid-area: Content;
     margin: auto;
     display: grid;
     gap: 5px;
     grid-template-areas:
-      "side c1"
-      "side c2"
-      "side c3"
-      "side c4"
-      "side c5"
-      "side c6"
-      "side c7"
-      "side c8"
-      "side c9"
-      "side c10"
-      "side c11"
-      "side c12";
+      "side c1 c1"
+      "side c2 c2"
+      "side c3 c3"
+      "side c4 c4"
+      "side c5 c5"
+      "side c6 c6"
+      "side c7 c7"
+      "side c8 c8"
+      "side c9 c9"
+      "side c10 c10"
+      "side c11 c11"
+      "side c12 c12"
+      "side c13 c13";
   }
 }
 
@@ -369,12 +298,19 @@ a:active { text-decoration: none; }
       display: grid;
       gap: 5px;
       grid-template-areas:
-        "c1 c2"
-        "c3 c4"
-        "c5 c6"
-        "c7 c8"
-        "c9 c10"
-        "c11 c12";
+        "side c1 c1"
+        "side c2 c2"
+        "side c3 c3"
+        "side c4 c4"
+        "side c5 c5"
+        "side c6 c6"
+        "side c7 c7"
+        "side c8 c8"
+        "side c9 c9"
+        "side c10 c10"
+        "side c11 c11"
+        "side c12 c12"
+        "side c13 c13";
     }
   }
 }
@@ -401,12 +337,20 @@ a:active { text-decoration: none; }
       display: grid;
       gap: 5px;
       grid-template-areas:
-        "c1 c2"
-        "c3 c4"
-        "c5 c6"
-        "c7 c8"
-        "c9 c10"
-        "c11 c12";
+        "side"  
+        "c1"
+        "c2"
+        "c3"
+        "c4"
+        "c5"
+        "c6"
+        "c7"
+        "c8"
+        "c9"
+        "c10"
+        "c11"
+        "c12"
+        "c13";
     }
   }
 }
@@ -435,6 +379,7 @@ a:active { text-decoration: none; }
       display: grid;
       gap: 5px;
       grid-template-areas:
+        "side"
         "c1"
         "c2"
         "c3"
@@ -446,7 +391,8 @@ a:active { text-decoration: none; }
         "c9"
         "c10"
         "c11"
-        "c12";
+        "c12"
+        "c13";
     }
   }
 }
@@ -472,6 +418,7 @@ a:active { text-decoration: none; }
     display: grid;
     gap: 5px;
     grid-template-areas:
+      "side"
       "c1"
       "c2"
       "c3"
@@ -483,7 +430,8 @@ a:active { text-decoration: none; }
       "c9"
       "c10"
       "c11"
-      "c12";
+      "c12"
+      "c13";
   }
   #Eno {
     height: 80%;
