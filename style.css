@@ -19,7 +19,10 @@ html {
     "Content Content Content";
 }
 
-a:link { text-decoration: none; }
+a:link { 
+  text-decoration: none;
+  color: blue;
+}
 
 a:visited { text-decoration: none; }
 
