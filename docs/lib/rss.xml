@@ -1,0 +1,204 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Eno Docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Eno Docs</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 20 Feb 2025 20:49:39 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 20 Feb 2025 20:49:38 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Router On a Stick]]></title><description><![CDATA[ 
+ <br><br>Create VLANS on switchs<br>Configure Global Interface<br>
+<br>int (PORT)
+<br>no shut
+<br>exit
+<br>Configure sub Interfaces<br>
+<br>int (PORT).(VLAN)
+<br>encapsulation dot1q (VLAN)
+<br>ip address (default gateway for the VLAN)
+<br>exit
+]]></description><link>Guides\Networking Configuration\Router Configuration Reference.html</link><guid isPermaLink="false">Guides/Networking Configuration/Router Configuration Reference.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Switch Config]]></title><description><![CDATA[ 
+ <br><br><br>initialize vlan<br>
+<br>int vlan (nber)
+<br>name (name)
+<br>assign vlan to port<br>
+<br>int (port)
+<br>switchport mode access
+<br>switchport access vlan (number)
+<br>configure trunk <br>
+<br>int (port)
+<br>switchport mode access
+<br>switchport trunk allowed vlan (vlan range)
+]]></description><link>Guides\Networking Configuration\Switch Configuration Reference.html</link><guid isPermaLink="false">Guides/Networking Configuration/Switch Configuration Reference.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Proxmox VM]]></title><description><![CDATA[ 
+ <br><br>Our proxmox server is considered a bare-metal VM server, the hypervisor runs directly on the hardware with no operating sysetm in between.<br><br><br>
+<br>
+Navigate to <a data-tooltip-position="top" aria-label="https://192.168.10.8" rel="noopener nofollow" class="external-link" href="https://192.168.10.8" target="_blank">https://192.168.10.8/</a> you MUST include https://
+
+<br>
+Use the following login credentials
+
+
+<br>
+Select Login
+
+<br>
+Select OK
+
+<br><br>
+<br>
+Select Create VM in the top right
+
+<br>
+Give your VM a name and select Next
+
+<br>
+Click the box next to ISO Image and select an operating system to install
+
+<br>
+Select the relevant type and version of your operating system and select Next
+
+<br>
+Ensure your screen matches this photo EXACTLY then select Next
+
+<br>
+Increase disk size to 64 and select Next
+
+<br>
+Increase the number of cores to 2, and change type to host, then select Next
+
+<br>
+Increase memory to 4096, then select Next
+
+<br>
+Skip all settings in the network page as long they match below
+
+<br>
+Select Next and then Finish
+
+<br><br>
+<br>
+On the left side of the screen, click the arrow next to Cloud9 to see the list of VMs
+
+<br>
+Select your VM, then select Console
+
+<br>
+Select Start Now, and press Esc repeatedly until this screen appears
+
+<br>
+Using the arrows keys, move to Device Manager and press Enter.
+
+<br>
+Using the arrows keys, move to Secure Boot Configuration and press Enter.
+
+<br>
+Using the arrows keys, move to Attempt Secure Boot and press Enter so that the X disappears.
+
+<br>
+Press Enter, then F10, then Y, then press Escape until you are back to the starting screen.
+
+<br>
+Using the arrow keys, move to Reset and press Enter.
+
+<br>
+Install your OS and enjoy.
+
+]]></description><link>Guides\Virtualization\Proxmox-VM.html</link><guid isPermaLink="false">Guides/Virtualization/Proxmox-VM.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Virtualization]]></title><description><![CDATA[ 
+ <br><br>Virtual machines are basically computers running computers. aka computerception<br>These guides walk you through the different virtual machine types and how to set them up.]]></description><link>Guides\Virtualization\Virtualization.html</link><guid isPermaLink="false">Guides/Virtualization/Virtualization.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Guides]]></title><description><![CDATA[ 
+ <br><br>A collection of guides for labs]]></description><link>Guides\Guides Overview.html</link><guid isPermaLink="false">Guides/Guides Overview.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Comcast Modem]]></title><description><![CDATA[ 
+ <br><br>Start typing here...]]></description><link>Networking Infastructure\Comcast-Modem.html</link><guid isPermaLink="false">Networking Infastructure/Comcast-Modem.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Detailed Network Explanation]]></title><description><![CDATA[ 
+ <br><br>A detailed look at the networking that runs the CIS room.<br>
+<a class="internal-link" data-href="General-Overview.md" href="Networking Infastructure\General-Overview.html" target="_self" rel="noopener nofollow">Quick Overview</a><br>Comcast Modem: 10.1.10.1<br>
+runs to<br>Firewall WAN Port: 10.1.10.35<br>Firewall LAN Port: 192.168.1.1<br>
+runs to Layer 3 Switch<br><br>They all utilize subnet mask 255.255.255.0 and 192.168.30.12 (Hampstead) for DNS requests.]]></description><link>Networking Infastructure\Detailed-Network-Explaination.html</link><guid isPermaLink="false">Networking Infastructure/Detailed-Network-Explaination.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Firewall]]></title><description><![CDATA[ 
+ <br><br>Our firewall is a Netgate 1100.]]></description><link>Networking Infastructure\Firewall.html</link><guid isPermaLink="false">Networking Infastructure/Firewall.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[General Overview]]></title><description><![CDATA[ 
+ <br><br><br>Our internet comes in from the street over at the Hackler Gymnasium. There is a Comcast router there, which we try not to touch because it is old. From there a cable runs from the Gym to the Low Building, and it comes into our backroom.<br>It goes directly into our firewall, which then runs into a Layer 3 Cisco switch. From there it is divided into 4 networks explained below:<br>
+<br>Lab - Mess around here
+<br>Class - Don't mess around here, poeple need internet
+<br>Server - All servers go here, don't touch plz
+]]></description><link>Networking Infastructure\General-Overview.html</link><guid isPermaLink="false">Networking Infastructure/General-Overview.md</guid><pubDate>Thu, 20 Feb 2025 20:40:42 GMT</pubDate></item><item><title><![CDATA[Layer 3 Switch]]></title><description><![CDATA[ 
+ <br><br>Start typing here...]]></description><link>Networking Infastructure\Layer-3-Switch.html</link><guid isPermaLink="false">Networking Infastructure/Layer-3-Switch.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Network Topology]]></title><description><![CDATA[ 
+ <br><br>The CIS Classroom is completely isolated from Pinkerton Academy's network. We design, implement, and maintain everything. This section explained how it is setup.]]></description><link>Networking Infastructure\Network-Topology.html</link><guid isPermaLink="false">Networking Infastructure/Network-Topology.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Cloud9]]></title><description><![CDATA[ 
+ <br><br>Cloud9 is the virtualization server. It runs proxmox, and is accessed at <a rel="noopener nofollow" class="external-link" href="https://192.168.10.8:8006" target="_blank">https://192.168.10.8:8006</a>.]]></description><link>Servers\Cloud9.html</link><guid isPermaLink="false">Servers/Cloud9.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Cyberdyne]]></title><description><![CDATA[ 
+ <br><br>Cyberdyne is the core of the CIS class. It runs Windows Server 2019, and provides Domain Services to the entire class.<br><br>All user accounts are stored on Cyberdyne, and allows a student to log in to their account on any computer enrolled in the domain.<br><br>Cyberdyne also provides domain DNS related services, which are forwarded from <a class="internal-link" data-href="Hampstead.md" href="Servers\Hampstead.html" target="_self" rel="noopener nofollow">Hampstead</a>.<br><br>Cyberdyne provides DHCP for both the Class and Lab <a class="internal-link" data-href="Detailed-Network-Explaination.md" href="Networking Infastructure\Detailed-Network-Explaination.html" target="_self" rel="noopener nofollow">networks</a>. Server also has it enabled because VMs on Cloud9 use that VLAN. DHCP Configs:<br>]]></description><link>Servers\Cyberdyne.html</link><guid isPermaLink="false">Servers/Cyberdyne.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Hampstead]]></title><description><![CDATA[ 
+ <br><br>Hampstead is the non-critical, but useful to have server.<br><br>The steam cache utilizes <a data-tooltip-position="top" aria-label="https://lancache.net/" rel="noopener nofollow" class="external-link" href="https://lancache.net/" target="_blank">LanCache</a>, it caches Steam, BattleNet, and Epic Games downloads.<br>Instead of downloading a game from the internet over and over, if it is cached, it simply pretends to be Steam and provides the download files itself. This saves time, and network bandwidth.<br>Anything not Gaming related is forwarded to <a class="internal-link" data-href="Cyberdyne.md" href="Servers\Cyberdyne.html" target="_self" rel="noopener nofollow">Cyberdyne</a>.<br><br>The uptime monitor runs UptimeKuma, a docker based monitoring system. It sends messages to room admins when services die, and provides a webview at <a data-tooltip-position="top" aria-label="https://uptime.professoreno.com/status/main" rel="noopener nofollow" class="external-link" href="https://uptime.professoreno.com/status/main" target="_blank">https://uptime.professoreno.com</a>.<br><br>NGINX is configured to host <a data-tooltip-position="top" aria-label="https://professoreno.com" rel="noopener nofollow" class="external-link" href="https://professoreno.com" target="_blank">professoreno.com</a> on Port 81. <a data-tooltip-position="top" aria-label="https://docs.professoreno.com" rel="noopener nofollow" class="external-link" href="https://docs.professoreno.com" target="_blank">docs.professoreno.com</a> is hosted on pot 82. These are tunneled through cloudflare to provide access outside the local network.<br><br>A public network share is hosted here, holding ISOs and the Golden Drive Image.]]></description><link>Servers\Hampstead.html</link><guid isPermaLink="false">Servers/Hampstead.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Kronos]]></title><description><![CDATA[ 
+ ]]></description><link>Servers\Kronos.html</link><guid isPermaLink="false">Servers/Kronos.md</guid><pubDate>Sun, 01 Sep 2024 14:09:46 GMT</pubDate></item><item><title><![CDATA[Servers]]></title><description><![CDATA[ 
+ <br><br>The CIS program has a small number of computers that act as servers, each serves a specific role.<br>
+<br>Cyberdyne - Active Directory, DNS, and DHCP
+<br>Cloud9 - Proxmox virtual machine server
+<br>Hampstead - Steam cache, Uptime monitor, Webserver, High speed network share
+]]></description><link>Servers\Servers.html</link><guid isPermaLink="false">Servers/Servers.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[General Information]]></title><description><![CDATA[ 
+ <br>The current class work PCs are Minisforum Venus UM773 Lite's. They have the following specs:<br>
+<br>CPU: AMD Ryzen 7 7735HS
+<br>Graphics: AMD Radeon 680M
+<br>RAM: 32 GB DDR5
+<br>Storage: 1 TB NVMe SSD
+<br>OS: Windows 11 Pro
+<br>Wi-Fi/Bluetooth: Wi-Fi 6, BT 5.2
+<br>Ports/Buttons:
+
+<br>RJ45 2.5 Gigabit Ethernet Port ×1  
+<br>USB3.2 Gen2 Type-C ×1 (Data Transfer, Right)  
+<br>USB3.2 Gen2 Type-A ×2  
+<br>USB2.0 Type-A ×2  
+<br>USB4 Type-C ×1 (Left)  
+<br>HDMI ×2  
+<br>Clear CMOS ×1  
+<br>DMIC ×1  
+<br>3.5mm Combo Jack ×1
+
+
+]]></description><link>Work PCs\General Information.html</link><guid isPermaLink="false">Work PCs/General Information.md</guid><pubDate>Sun, 01 Sep 2024 14:50:06 GMT</pubDate></item><item><title><![CDATA[Programs]]></title><description><![CDATA[ 
+ <br>Below is the list of all software tools with descriptions installed by default on the golden image.<br>
+<br>Chrome - Web browser
+<br>Firefox - Web browser
+<br>VLC Media Player - Media player
+<br>Steam - Game launcher
+<br>Spotify - Music service
+<br>Discord - Chat service
+<br>7-Zip - Archive manager
+<br>Notepad++ - Advanced text editor
+<br>PuTTY - Remote connection tool
+<br>Python 3.11.1 (python.org) - Code interpreter
+<br>Anki - Flashcard software
+<br>VirtualBox - Virtual Machine manager
+<br>Teraterm - Remote connection tool
+<br>VS Code - Simple code editor
+<br>Git 2.39 - Version control software
+<br>Wireshark - Network packet sniffer
+<br>Angry IP Scan - Network device scanner
+<br>Advance IP Scanner - Network device scanner
+<br>Nmap - Network device scanner
+<br>Packet Tracer 8.2 - Cisco network simulation tool
+<br>Below is an install script to install all tools with the exception of Cisco Packet Tracer<br>winget install Google.Chrome --scope machine -h
+
+winget install Mozilla.Firefox --scope machine -h
+
+winget install VideoLAN.VLC --scope machine -h
+
+winget install Valve.Steam --scope machine -h
+
+winget install Spotify.Spotify --scope machine -h
+
+winget install Discord.Discord --scope machine -h
+
+winget install 7zip.7zip --scope machine -h
+
+winget install Notepad++.Notepad++ --scope machine -h
+
+winget install PuTTY.PuTTY --scope machine -h
+
+winget install Python.Python.3.12.3 --scope machine -h
+
+winget install Anki.Anki --scope machine -h
+
+winget install Oracle.VirtualBox --scope machine -h
+
+winget install TeraTermProject.teraterm --scope machine -h
+
+winget install Microsoft.VisualStudioCode --scope machine -h
+
+winget install Git.Git --scope machine -h
+
+winget install WiresharkFoundation.Wireshark --scope machine -h
+
+winget install angryziber.AngryIPScanner --scope machine -h
+
+winget install Famatech.AdvancedIPScanner --scope machine -h
+
+winget install Insecure.Nmap --scope machine -h
+
+pause
+]]></description><link>Work PCs\Programs.html</link><guid isPermaLink="false">Work PCs/Programs.md</guid><pubDate>Sun, 01 Sep 2024 14:39:38 GMT</pubDate></item><item><title><![CDATA[Introduction]]></title><description><![CDATA[ 
+ <br>Some random text to test my commit because idk if it works and then some more to test other thing]]></description><link>Introduction.html</link><guid isPermaLink="false">Introduction.md</guid><pubDate>Thu, 20 Feb 2025 20:43:21 GMT</pubDate></item></channel></rss>
