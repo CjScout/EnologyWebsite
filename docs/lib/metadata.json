@@ -1,6 +1,6 @@
 {
   "vaultName": "Eno Docs",
-  "lastExport": 1740084578306,
+  "lastExport": 1740105795626,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -11,17 +11,19 @@
     "Guides/Virtualization/Proxmox-VM.md",
     "Guides/Virtualization/Virtualization.md",
     "Guides/Guides Overview.md",
-    "Networking Infastructure/Comcast-Modem.md",
-    "Networking Infastructure/Detailed-Network-Explaination.md",
-    "Networking Infastructure/Firewall.md",
-    "Networking Infastructure/General-Overview.md",
-    "Networking Infastructure/Layer-3-Switch.md",
-    "Networking Infastructure/Network-Topology.md",
+    "Networking Infastructure/Comcast Modem.md",
+    "Networking Infastructure/Detailed Network Explanation.md",
+    "Networking Infastructure/General Overview.md",
+    "Networking Infastructure/Mikrotik L3 Core Switch.md",
+    "Networking Infastructure/Netgate Firewall.md",
+    "Networking Infastructure/Network Topology.md",
     "Servers/Cloud9.md",
     "Servers/Cyberdyne.md",
     "Servers/Hampstead.md",
     "Servers/Kronos.md",
     "Servers/Servers.md",
+    "Servers/Tailscale.md",
+    "Servers/Uptime.md",
     "Work PCs/General Information.md",
     "Work PCs/Programs.md",
     "Introduction.md",
@@ -58,200 +60,212 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "Guides/Networking Configuration/Router Configuration Reference.md": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 232,
       "exportedPath": "Guides/Networking Configuration/Router Configuration Reference.html",
       "dependencies": []
     },
     "Guides/Networking Configuration/Switch Configuration Reference.md": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 282,
       "exportedPath": "Guides/Networking Configuration/Switch Configuration Reference.html",
       "dependencies": []
     },
     "Guides/Virtualization/Proxmox-VM.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 1908,
+      "modifiedTime": 1740105795626,
+      "sourceSize": 1918,
       "exportedPath": "Guides/Virtualization/Proxmox-VM.html",
       "dependencies": []
     },
     "Guides/Virtualization/Virtualization.md": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 189,
       "exportedPath": "Guides/Virtualization/Virtualization.html",
       "dependencies": []
     },
     "Guides/Guides Overview.md": {
-      "modifiedTime": 1740084578306,
+      "modifiedTime": 1740105795626,
       "sourceSize": 41,
       "exportedPath": "Guides/Guides Overview.html",
       "dependencies": []
     },
-    "Networking Infastructure/Comcast-Modem.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 37,
-      "exportedPath": "Networking Infastructure/Comcast-Modem.html",
+    "Networking Infastructure/Comcast Modem.md": {
+      "modifiedTime": 1740105795626,
+      "sourceSize": 176,
+      "exportedPath": "Networking Infastructure/Comcast Modem.html",
       "dependencies": []
     },
-    "Networking Infastructure/Detailed-Network-Explaination.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 1350,
-      "exportedPath": "Networking Infastructure/Detailed-Network-Explaination.html",
+    "Networking Infastructure/Detailed Network Explanation.md": {
+      "modifiedTime": 1740105795626,
+      "sourceSize": 1180,
+      "exportedPath": "Networking Infastructure/Detailed Network Explanation.html",
       "dependencies": []
     },
-    "Networking Infastructure/Firewall.md": {
-      "modifiedTime": 1740084578306,
+    "Networking Infastructure/General Overview.md": {
+      "modifiedTime": 1740105795626,
+      "sourceSize": 560,
+      "exportedPath": "Networking Infastructure/General Overview.html",
+      "dependencies": []
+    },
+    "Networking Infastructure/Mikrotik L3 Core Switch.md": {
+      "modifiedTime": 1740105795626,
+      "sourceSize": 47,
+      "exportedPath": "Networking Infastructure/Mikrotik L3 Core Switch.html",
+      "dependencies": []
+    },
+    "Networking Infastructure/Netgate Firewall.md": {
+      "modifiedTime": 1740105795626,
       "sourceSize": 43,
-      "exportedPath": "Networking Infastructure/Firewall.html",
+      "exportedPath": "Networking Infastructure/Netgate Firewall.html",
       "dependencies": []
     },
-    "Networking Infastructure/General-Overview.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 548,
-      "exportedPath": "Networking Infastructure/General-Overview.html",
-      "dependencies": []
-    },
-    "Networking Infastructure/Layer-3-Switch.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 38,
-      "exportedPath": "Networking Infastructure/Layer-3-Switch.html",
-      "dependencies": []
-    },
-    "Networking Infastructure/Network-Topology.md": {
-      "modifiedTime": 1740084578306,
+    "Networking Infastructure/Network Topology.md": {
+      "modifiedTime": 1740105795626,
       "sourceSize": 181,
-      "exportedPath": "Networking Infastructure/Network-Topology.html",
+      "exportedPath": "Networking Infastructure/Network Topology.html",
       "dependencies": []
     },
     "Servers/Cloud9.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 139,
+      "modifiedTime": 1740105795626,
+      "sourceSize": 427,
       "exportedPath": "Servers/Cloud9.html",
       "dependencies": []
     },
     "Servers/Cyberdyne.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 909,
+      "modifiedTime": 1740105795626,
+      "sourceSize": 339,
       "exportedPath": "Servers/Cyberdyne.html",
       "dependencies": []
     },
     "Servers/Hampstead.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 1054,
+      "modifiedTime": 1740105795626,
+      "sourceSize": 0,
       "exportedPath": "Servers/Hampstead.html",
       "dependencies": []
     },
     "Servers/Kronos.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 23,
+      "modifiedTime": 1740105795626,
+      "sourceSize": 165,
       "exportedPath": "Servers/Kronos.html",
       "dependencies": []
     },
     "Servers/Servers.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 276,
+      "modifiedTime": 1740105795626,
+      "sourceSize": 372,
       "exportedPath": "Servers/Servers.html",
       "dependencies": []
     },
+    "Servers/Tailscale.md": {
+      "modifiedTime": 1740105795626,
+      "sourceSize": 0,
+      "exportedPath": "Servers/Tailscale.html",
+      "dependencies": []
+    },
+    "Servers/Uptime.md": {
+      "modifiedTime": 1740105795626,
+      "sourceSize": 0,
+      "exportedPath": "Servers/Uptime.html",
+      "dependencies": []
+    },
     "Work PCs/General Information.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 570,
+      "modifiedTime": 1740105795626,
+      "sourceSize": 584,
       "exportedPath": "Work PCs/General Information.html",
       "dependencies": []
     },
     "Work PCs/Programs.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 1949,
+      "modifiedTime": 1740105795626,
+      "sourceSize": 1987,
       "exportedPath": "Work PCs/Programs.html",
       "dependencies": []
     },
     "Introduction.md": {
-      "modifiedTime": 1740084578306,
-      "sourceSize": 119,
+      "modifiedTime": 1740105795626,
+      "sourceSize": 225,
       "exportedPath": "Introduction.html",
       "dependencies": []
     }
