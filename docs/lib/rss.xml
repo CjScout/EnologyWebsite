@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Eno Docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Eno Docs</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 21 Feb 2025 18:38:00 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 21 Feb 2025 18:37:58 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Router On a Stick]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Eno Docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Eno Docs</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 21 Feb 2025 18:54:40 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 21 Feb 2025 18:54:39 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Router On a Stick]]></title><description><![CDATA[ 
  <br><br>Create VLANS on switchs<br>Configure Global Interface<br>
 <br>int (PORT)
 <br>no shut
@@ -249,7 +249,7 @@ pause
 <br>3.5mm Combo Jack ×1
 
 
-]]></description><link>Work PCs\Work PCs.html</link><guid isPermaLink="false">Work PCs/Work PCs.md</guid><pubDate>Fri, 21 Feb 2025 02:16:55 GMT</pubDate></item><item><title><![CDATA[Introduction]]></title><description><![CDATA[ 
+]]></description><link>Work PCs\Work PCs.html</link><guid isPermaLink="false">Work PCs/Work PCs.md</guid><pubDate>Fri, 21 Feb 2025 02:16:55 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
  <br>Welcome to the Computer Information System documentation site. Here you can find written explanations for just about anything in the room.<br><br>
 <br><a data-href="Work PCs" href="Work PCs\Work PCs.html" class="internal-link" target="_self" rel="noopener nofollow">Work PCs</a>
 <br><a data-href="Servers" href="Servers\Servers.html" class="internal-link" target="_self" rel="noopener nofollow">Servers</a>
@@ -258,4 +258,4 @@ pause
 <br><br>(Names redacted for privacy)<br>
 <br>Connor S
 <br>Andrew B
-]]></description><link>Introduction.html</link><guid isPermaLink="false">Introduction.md</guid><pubDate>Fri, 21 Feb 2025 16:35:25 GMT</pubDate></item></channel></rss>
+]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Fri, 21 Feb 2025 16:35:25 GMT</pubDate></item></channel></rss>
