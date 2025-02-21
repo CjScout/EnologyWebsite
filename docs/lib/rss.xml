@@ -1,87 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Eno Docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Eno Docs</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 21 Feb 2025 16:36:56 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 21 Feb 2025 16:36:55 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Guides]]></title><description><![CDATA[ 
- <br><br>A collection of guides for labs]]></description><link>guides\guides.html</link><guid isPermaLink="false">Guides/Guides.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Detailed Network Explanation]]></title><description><![CDATA[ 
- <br><br>A detailed look at the networking that runs the CIS room.<br>
-<a class="internal-link" data-href="Network Overview.md" href="networking-infastructure\network-overview.html" target="_self" rel="noopener nofollow">Quick Overview</a><br>Line from street ---&gt; <a data-href="Comcast Modem" href="networking-infastructure\comcast-modem.html" class="internal-link" target="_self" rel="noopener nofollow">Comcast Modem</a> ---&gt; <a data-href="Netgate Firewall" href="networking-infastructure\netgate-firewall.html" class="internal-link" target="_self" rel="noopener nofollow">Netgate Firewall</a> ---&gt; <a data-href="Mikrotik L3 Core Switch" href="networking-infastructure\mikrotik-l3-core-switch.html" class="internal-link" target="_self" rel="noopener nofollow">Mikrotik L3 Core Switch</a><br>The <a data-href="Mikrotik L3 Core Switch" href="networking-infastructure\mikrotik-l3-core-switch.html" class="internal-link" target="_self" rel="noopener nofollow">Mikrotik L3 Core Switch</a> divides the network into 3 VLANs:<br>]]></description><link>networking-infastructure\detailed-network-explanation.html</link><guid isPermaLink="false">Networking Infastructure/Detailed Network Explanation.md</guid><pubDate>Fri, 21 Feb 2025 16:35:09 GMT</pubDate></item><item><title><![CDATA[General Overview]]></title><description><![CDATA[ 
- <br><br><br>Our internet comes in from the street over at the Hackler Gymnasium. There is a Comcast router there, which we try not to touch because it is old. From there a cable runs from the Gym to the Low Building, and it comes into our backroom.<br>It goes directly into our firewall, which then runs into a Mikrotik Layer 3 Capable Switch. om there it is divided into 4 networks explained below:<br>
-<br>Lab - Mess around here
-<br>Class - Don't mess around here, poeple need internet
-<br>Server - All servers go here, don't touch please
-]]></description><link>networking-infastructure\network-overview.html</link><guid isPermaLink="false">Networking Infastructure/Network Overview.md</guid><pubDate>Fri, 21 Feb 2025 02:34:06 GMT</pubDate></item><item><title><![CDATA[Funion Server]]></title><description><![CDATA[ 
- ]]></description><link>servers\funion-server.html</link><guid isPermaLink="false">Servers/Funion Server.md</guid><pubDate>Fri, 21 Feb 2025 16:31:28 GMT</pubDate></item><item><title><![CDATA[Server Overview]]></title><description><![CDATA[ 
- <br><br>The CIS program has a small number of computers that act as servers, each serves a specific role.<br>
-<br><a data-href="Cyberdyne" href="servers\cyberdyne.html" class="internal-link" target="_self" rel="noopener nofollow">Cyberdyne</a> - Active Directory, DNS
-<br><a data-href="Cloud9" href="servers\cloud9.html" class="internal-link" target="_self" rel="noopener nofollow">Cloud9</a> - Proxmox virtual machine server
-<br><a data-href="Hampstead" href="servers\hampstead.html" class="internal-link" target="_self" rel="noopener nofollow">Hampstead</a> - Webserver
-<br><a data-href="Kronos" href="servers\kronos.html" class="internal-link" target="_self" rel="noopener nofollow">Kronos</a> - High-speed storage
-<br><a data-href="Tailscale" href="servers\tailscale.html" class="internal-link" target="_self" rel="noopener nofollow">Tailscale</a> - Remote VPN access/entry point
-<br><a data-href="Uptime" href="servers\uptime.html" class="internal-link" target="_self" rel="noopener nofollow">Uptime</a> - Uptime Kuma docker container for network uptime monitoring
-<br><a data-href="Funion Server" href="servers\funion-server.html" class="internal-link" target="_self" rel="noopener nofollow">Funion Server</a> - Security Onion node for IDS
-]]></description><link>servers\servers.html</link><guid isPermaLink="false">Servers/Servers.md</guid><pubDate>Fri, 21 Feb 2025 16:34:33 GMT</pubDate></item><item><title><![CDATA[Uptime]]></title><description><![CDATA[ 
- <br>The uptime server runs an uptime-kuma docker container. It is accessible at <a rel="noopener nofollow" class="external-link" href="http://192.168.30.11:3001" target="_blank">http://192.168.30.11:3001</a>.<br>It is confugured to perform ping tests on the following equipment<br>
-<br>Class Infrastructure
-
-<br>Class AP
-<br>Printer
-
-
-<br>Core Infrastructure
-
-<br>Class Switch 1
-<br>Class Switch 2
-<br>Class Switch 3
-<br><a data-href="Comcast Modem" href="networking-infastructure\comcast-modem.html" class="internal-link" target="_self" rel="noopener nofollow">Comcast Modem</a>
-<br>Mikrotik Class VLAN
-<br>Mikrotik Server VLAN
-<br><a data-href="Netgate Firewall" href="networking-infastructure\netgate-firewall.html" class="internal-link" target="_self" rel="noopener nofollow">Netgate Firewall</a>
-
-
-<br>Internet Services
-
-<br>Cloudflare
-<br>Google
-
-
-<br>Servers
-
-<br>AD DNS
-<br><a data-href="Cloud9" href="servers\cloud9.html" class="internal-link" target="_self" rel="noopener nofollow">Cloud9</a>
-<br><a data-href="Cyberdyne" href="servers\cyberdyne.html" class="internal-link" target="_self" rel="noopener nofollow">Cyberdyne</a>
-<br><a data-href="Funion Server" href="servers\funion-server.html" class="internal-link" target="_self" rel="noopener nofollow">Funion Server</a>
-<br><a data-href="Kronos" href="servers\kronos.html" class="internal-link" target="_self" rel="noopener nofollow">Kronos</a>
-<br><a data-href="Tailscale" href="servers\tailscale.html" class="internal-link" target="_self" rel="noopener nofollow">Tailscale</a>
-
-
-]]></description><link>servers\uptime.html</link><guid isPermaLink="false">Servers/Uptime.md</guid><pubDate>Fri, 21 Feb 2025 16:32:07 GMT</pubDate></item><item><title><![CDATA[PC Overview]]></title><description><![CDATA[ 
- <br><br>The current class work PCs are Minisforum Venus UM773 Lite's. They have the following specs:<br>
-<br>CPU: AMD Ryzen 7 7735HS
-<br>Graphics: AMD Radeon 680M
-<br>RAM: 32 GB DDR5
-<br>Storage: 1 TB NVMe SSD
-<br>OS: Windows 11 Pro
-<br>Wi-Fi/Bluetooth: Wi-Fi 6, BT 5.2
-<br>Ports/Buttons:
-
-<br>RJ45 2.5 Gigabit Ethernet Port ×1  
-<br>USB3.2 Gen2 Type-C ×1 (Data Transfer, Right)  
-<br>USB3.2 Gen2 Type-A ×2  
-<br>USB2.0 Type-A ×2  
-<br>USB4 Type-C ×1 (Left)  
-<br>HDMI ×2  
-<br>Clear CMOS ×1  
-<br>DMIC ×1  
-<br>3.5mm Combo Jack ×1
-
-
-]]></description><link>work-pcs\work-pcs.html</link><guid isPermaLink="false">Work PCs/Work PCs.md</guid><pubDate>Fri, 21 Feb 2025 02:16:55 GMT</pubDate></item><item><title><![CDATA[Introduction]]></title><description><![CDATA[ 
- <br>Welcome to the Computer Information System documentation site. Here you can find written explanations for just about anything in the room.<br><br>
-<br><a data-href="Work PCs" href="work-pcs\work-pcs.html" class="internal-link" target="_self" rel="noopener nofollow">Work PCs</a>
-<br><a data-href="Servers" href="servers\servers.html" class="internal-link" target="_self" rel="noopener nofollow">Servers</a>
-<br><a data-href="Network Overview" href="networking-infastructure\network-overview.html" class="internal-link" target="_self" rel="noopener nofollow">Network Overview</a>
-<br><a data-href="Guides" href="guides\guides.html" class="internal-link" target="_self" rel="noopener nofollow">Guides</a>
-<br><br>(Names redacted for privacy)<br>
-<br>Connor S
-<br>Andrew B
-]]></description><link>introduction.html</link><guid isPermaLink="false">Introduction.md</guid><pubDate>Fri, 21 Feb 2025 16:35:25 GMT</pubDate></item><item><title><![CDATA[Router On a Stick]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Eno Docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Eno Docs</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 21 Feb 2025 17:17:28 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 21 Feb 2025 17:17:26 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Router On a Stick]]></title><description><![CDATA[ 
  <br><br>Create VLANS on switchs<br>Configure Global Interface<br>
 <br>int (PORT)
 <br>no shut
@@ -91,7 +8,7 @@
 <br>encapsulation dot1q (VLAN)
 <br>ip address (default gateway for the VLAN)
 <br>exit
-]]></description><link>guides\networking-configuration\router-configuration-reference.html</link><guid isPermaLink="false">Guides/Networking Configuration/Router Configuration Reference.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Switch Config]]></title><description><![CDATA[ 
+]]></description><link>Guides\Networking Configuration\Router Configuration Reference.html</link><guid isPermaLink="false">Guides/Networking Configuration/Router Configuration Reference.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Switch Config]]></title><description><![CDATA[ 
  <br><br><br>initialize vlan<br>
 <br>int vlan (nber)
 <br>name (name)
@@ -103,7 +20,7 @@
 <br>int (port)
 <br>switchport mode access
 <br>switchport trunk allowed vlan (vlan range)
-]]></description><link>guides\networking-configuration\switch-configuration-reference.html</link><guid isPermaLink="false">Guides/Networking Configuration/Switch Configuration Reference.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Proxmox VM]]></title><description><![CDATA[ 
+]]></description><link>Guides\Networking Configuration\Switch Configuration Reference.html</link><guid isPermaLink="false">Guides/Networking Configuration/Switch Configuration Reference.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Proxmox VM]]></title><description><![CDATA[ 
  <br><br>Our Proxmox server is considered a bare-metal VM server, the hypervisor runs directly on the hardware with no operating sysetm in between.<br><br><br>
 <br>
 Navigate to <a data-tooltip-position="top" aria-label="https://192.168.30.8:8006" rel="noopener nofollow" class="external-link" href="https://192.168.30.8:8006" target="_blank">https://192.168.30.8:8006/</a> you MUST include https://
@@ -177,21 +94,74 @@ Using the arrow keys, move to Reset and press Enter.
 <br>
 Install your OS and enjoy.
 
-]]></description><link>guides\virtualization\proxmox-vm.html</link><guid isPermaLink="false">Guides/Virtualization/Proxmox-VM.md</guid><pubDate>Fri, 21 Feb 2025 02:43:06 GMT</pubDate></item><item><title><![CDATA[Virtualization]]></title><description><![CDATA[ 
- <br><br>Virtual machines are basically computers running computers. aka computerception<br>These guides walk you through the different virtual machine types and how to set them up.]]></description><link>guides\virtualization\virtualization.html</link><guid isPermaLink="false">Guides/Virtualization/Virtualization.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Comcast Modem]]></title><description><![CDATA[ 
- <br><br>The Comcast modem has been reduced to nothing but a modem in bridge mode. It should never need to be touch, but it is accessible at <a rel="noopener nofollow" class="external-link" href="http://10.1.10.1" target="_blank">http://10.1.10.1</a> if needed.]]></description><link>networking-infastructure\comcast-modem.html</link><guid isPermaLink="false">Networking Infastructure/Comcast Modem.md</guid><pubDate>Fri, 21 Feb 2025 02:30:13 GMT</pubDate></item><item><title><![CDATA[Mikrotik L3 Core Switch]]></title><description><![CDATA[ 
- <br><br>Start typing here...]]></description><link>networking-infastructure\mikrotik-l3-core-switch.html</link><guid isPermaLink="false">Networking Infastructure/Mikrotik L3 Core Switch.md</guid><pubDate>Fri, 21 Feb 2025 02:32:05 GMT</pubDate></item><item><title><![CDATA[Firewall]]></title><description><![CDATA[ 
- <br><br>Our firewall is a Netgate 1100.]]></description><link>networking-infastructure\netgate-firewall.html</link><guid isPermaLink="false">Networking Infastructure/Netgate Firewall.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Network Topology]]></title><description><![CDATA[ 
- <br><br>The CIS Classroom is completely isolated from Pinkerton Academy's network. We design, implement, and maintain everything. This section explained how it is setup.]]></description><link>networking-infastructure\network-topology.html</link><guid isPermaLink="false">Networking Infastructure/Network Topology.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Cloud9]]></title><description><![CDATA[ 
+]]></description><link>Guides\Virtualization\Proxmox-VM.html</link><guid isPermaLink="false">Guides/Virtualization/Proxmox-VM.md</guid><pubDate>Fri, 21 Feb 2025 02:43:06 GMT</pubDate></item><item><title><![CDATA[Virtualization]]></title><description><![CDATA[ 
+ <br><br>Virtual machines are basically computers running computers. aka computerception<br>These guides walk you through the different virtual machine types and how to set them up.]]></description><link>Guides\Virtualization\Virtualization.html</link><guid isPermaLink="false">Guides/Virtualization/Virtualization.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Guides]]></title><description><![CDATA[ 
+ <br><br>A collection of guides for labs]]></description><link>Guides\Guides.html</link><guid isPermaLink="false">Guides/Guides.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Comcast Modem]]></title><description><![CDATA[ 
+ <br><br>The Comcast modem has been reduced to nothing but a modem in bridge mode. It should never need to be touch, but it is accessible at <a rel="noopener nofollow" class="external-link" href="http://10.1.10.1" target="_blank">http://10.1.10.1</a> if needed.]]></description><link>Networking Infastructure\Comcast Modem.html</link><guid isPermaLink="false">Networking Infastructure/Comcast Modem.md</guid><pubDate>Fri, 21 Feb 2025 02:30:13 GMT</pubDate></item><item><title><![CDATA[Detailed Network Explanation]]></title><description><![CDATA[ 
+ <br><br>A detailed look at the networking that runs the CIS room.<br>
+<a class="internal-link" data-href="Network Overview.md" href="Networking Infastructure\Network Overview.html" target="_self" rel="noopener nofollow">Quick Overview</a><br>Line from street ---&gt; <a data-href="Comcast Modem" href="Networking Infastructure\Comcast Modem.html" class="internal-link" target="_self" rel="noopener nofollow">Comcast Modem</a> ---&gt; <a data-href="Netgate Firewall" href="Networking Infastructure\Netgate Firewall.html" class="internal-link" target="_self" rel="noopener nofollow">Netgate Firewall</a> ---&gt; <a data-href="Mikrotik L3 Core Switch" href="Networking Infastructure\Mikrotik L3 Core Switch.html" class="internal-link" target="_self" rel="noopener nofollow">Mikrotik L3 Core Switch</a><br>The <a data-href="Mikrotik L3 Core Switch" href="Networking Infastructure\Mikrotik L3 Core Switch.html" class="internal-link" target="_self" rel="noopener nofollow">Mikrotik L3 Core Switch</a> divides the network into 3 VLANs:<br>]]></description><link>Networking Infastructure\Detailed Network Explanation.html</link><guid isPermaLink="false">Networking Infastructure/Detailed Network Explanation.md</guid><pubDate>Fri, 21 Feb 2025 16:35:09 GMT</pubDate></item><item><title><![CDATA[Mikrotik L3 Core Switch]]></title><description><![CDATA[ 
+ <br><br>Start typing here...]]></description><link>Networking Infastructure\Mikrotik L3 Core Switch.html</link><guid isPermaLink="false">Networking Infastructure/Mikrotik L3 Core Switch.md</guid><pubDate>Fri, 21 Feb 2025 02:32:05 GMT</pubDate></item><item><title><![CDATA[Firewall]]></title><description><![CDATA[ 
+ <br><br>Our firewall is a Netgate 1100.]]></description><link>Networking Infastructure\Netgate Firewall.html</link><guid isPermaLink="false">Networking Infastructure/Netgate Firewall.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[General Overview]]></title><description><![CDATA[ 
+ <br><br><br>Our internet comes in from the street over at the Hackler Gymnasium. There is a Comcast router there, which we try not to touch because it is old. From there a cable runs from the Gym to the Low Building, and it comes into our backroom.<br>It goes directly into our firewall, which then runs into a Mikrotik Layer 3 Capable Switch. om there it is divided into 4 networks explained below:<br>
+<br>Lab - Mess around here
+<br>Class - Don't mess around here, poeple need internet
+<br>Server - All servers go here, don't touch please
+]]></description><link>Networking Infastructure\Network Overview.html</link><guid isPermaLink="false">Networking Infastructure/Network Overview.md</guid><pubDate>Fri, 21 Feb 2025 02:34:06 GMT</pubDate></item><item><title><![CDATA[Network Topology]]></title><description><![CDATA[ 
+ <br><br>The CIS Classroom is completely isolated from Pinkerton Academy's network. We design, implement, and maintain everything. This section explained how it is setup.]]></description><link>Networking Infastructure\Network Topology.html</link><guid isPermaLink="false">Networking Infastructure/Network Topology.md</guid><pubDate>Thu, 20 Feb 2025 20:36:30 GMT</pubDate></item><item><title><![CDATA[Cloud9]]></title><description><![CDATA[ 
  <br><br>Cloud9 is the virtualization server. It runs Proxmox, and is accessed at <a rel="noopener nofollow" class="external-link" href="https://192.168.10.8:8006" target="_blank">https://192.168.10.8:8006</a>.<br><br>Cloud9 hosts several servers as VMs:<br>
 <br>Tailscale (VM ID 101) - Remote access VPN server
 <br>Hampstead (VM ID 103) - Webserver (hosts this site)
 <br>uptime (VM ID 104) - Hosts uptime kuma docker container, accessible at <a rel="noopener nofollow" class="external-link" href="https://192.168.30.11:3001" target="_blank">https://192.168.30.11:3001</a>
-]]></description><link>servers\cloud9.html</link><guid isPermaLink="false">Servers/Cloud9.md</guid><pubDate>Fri, 21 Feb 2025 02:28:45 GMT</pubDate></item><item><title><![CDATA[Cyberdyne]]></title><description><![CDATA[ 
- <br><br>Cyberdyne is the core of the CIS class. It runs Windows Server 2019, and provides Domain Services to the entire class.<br><br>All user accounts are stored on Cyberdyne, and allows a student to log in to their account on any computer enrolled in the domain.<br><br>Cyberdyne also provides domain DNS related services.]]></description><link>servers\cyberdyne.html</link><guid isPermaLink="false">Servers/Cyberdyne.md</guid><pubDate>Fri, 21 Feb 2025 02:42:01 GMT</pubDate></item><item><title><![CDATA[Hampstead]]></title><description><![CDATA[ 
- ]]></description><link>servers\hampstead.html</link><guid isPermaLink="false">Servers/Hampstead.md</guid><pubDate>Fri, 21 Feb 2025 02:36:39 GMT</pubDate></item><item><title><![CDATA[Kronos]]></title><description><![CDATA[ 
- <br><br>Kronos is a high-speed storage server. It has 4x 2TB NVMe SSDs in a RAID 0. It is used to store non-critical, but useful information.]]></description><link>servers\kronos.html</link><guid isPermaLink="false">Servers/Kronos.md</guid><pubDate>Fri, 21 Feb 2025 02:36:52 GMT</pubDate></item><item><title><![CDATA[Tailscale]]></title><description><![CDATA[ 
- ]]></description><link>servers\tailscale.html</link><guid isPermaLink="false">Servers/Tailscale.md</guid><pubDate>Fri, 21 Feb 2025 02:38:24 GMT</pubDate></item><item><title><![CDATA[Programs]]></title><description><![CDATA[ 
+]]></description><link>Servers\Cloud9.html</link><guid isPermaLink="false">Servers/Cloud9.md</guid><pubDate>Fri, 21 Feb 2025 02:28:45 GMT</pubDate></item><item><title><![CDATA[Cyberdyne]]></title><description><![CDATA[ 
+ <br><br>Cyberdyne is the core of the CIS class. It runs Windows Server 2019, and provides Domain Services to the entire class.<br><br>All user accounts are stored on Cyberdyne, and allows a student to log in to their account on any computer enrolled in the domain.<br><br>Cyberdyne also provides domain DNS related services.]]></description><link>Servers\Cyberdyne.html</link><guid isPermaLink="false">Servers/Cyberdyne.md</guid><pubDate>Fri, 21 Feb 2025 02:42:01 GMT</pubDate></item><item><title><![CDATA[Funion Server]]></title><description><![CDATA[ 
+ ]]></description><link>Servers\Funion Server.html</link><guid isPermaLink="false">Servers/Funion Server.md</guid><pubDate>Fri, 21 Feb 2025 16:31:28 GMT</pubDate></item><item><title><![CDATA[Hampstead]]></title><description><![CDATA[ 
+ ]]></description><link>Servers\Hampstead.html</link><guid isPermaLink="false">Servers/Hampstead.md</guid><pubDate>Fri, 21 Feb 2025 02:36:39 GMT</pubDate></item><item><title><![CDATA[Kronos]]></title><description><![CDATA[ 
+ <br><br>Kronos is a high-speed storage server. It has 4x 2TB NVMe SSDs in a RAID 0. It is used to store non-critical, but useful information.]]></description><link>Servers\Kronos.html</link><guid isPermaLink="false">Servers/Kronos.md</guid><pubDate>Fri, 21 Feb 2025 02:36:52 GMT</pubDate></item><item><title><![CDATA[Server Overview]]></title><description><![CDATA[ 
+ <br><br>The CIS program has a small number of computers that act as servers, each serves a specific role.<br>
+<br><a data-href="Cyberdyne" href="Servers\Cyberdyne.html" class="internal-link" target="_self" rel="noopener nofollow">Cyberdyne</a> - Active Directory, DNS
+<br><a data-href="Cloud9" href="Servers\Cloud9.html" class="internal-link" target="_self" rel="noopener nofollow">Cloud9</a> - Proxmox virtual machine server
+<br><a data-href="Hampstead" href="Servers\Hampstead.html" class="internal-link" target="_self" rel="noopener nofollow">Hampstead</a> - Webserver
+<br><a data-href="Kronos" href="Servers\Kronos.html" class="internal-link" target="_self" rel="noopener nofollow">Kronos</a> - High-speed storage
+<br><a data-href="Tailscale" href="Servers\Tailscale.html" class="internal-link" target="_self" rel="noopener nofollow">Tailscale</a> - Remote VPN access/entry point
+<br><a data-href="Uptime" href="Servers\Uptime.html" class="internal-link" target="_self" rel="noopener nofollow">Uptime</a> - Uptime Kuma docker container for network uptime monitoring
+<br><a data-href="Funion Server" href="Servers\Funion Server.html" class="internal-link" target="_self" rel="noopener nofollow">Funion Server</a> - Security Onion node for IDS
+]]></description><link>Servers\Servers.html</link><guid isPermaLink="false">Servers/Servers.md</guid><pubDate>Fri, 21 Feb 2025 16:34:33 GMT</pubDate></item><item><title><![CDATA[Tailscale]]></title><description><![CDATA[ 
+ ]]></description><link>Servers\Tailscale.html</link><guid isPermaLink="false">Servers/Tailscale.md</guid><pubDate>Fri, 21 Feb 2025 02:38:24 GMT</pubDate></item><item><title><![CDATA[Uptime]]></title><description><![CDATA[ 
+ <br>The uptime server runs an uptime-kuma docker container. It is accessible at <a rel="noopener nofollow" class="external-link" href="http://192.168.30.11:3001" target="_blank">http://192.168.30.11:3001</a>.<br>It is confugured to perform ping tests on the following equipment<br>
+<br>Class Infrastructure
+
+<br>Class AP
+<br>Printer
+
+
+<br>Core Infrastructure
+
+<br>Class Switch 1
+<br>Class Switch 2
+<br>Class Switch 3
+<br><a data-href="Comcast Modem" href="Networking Infastructure\Comcast Modem.html" class="internal-link" target="_self" rel="noopener nofollow">Comcast Modem</a>
+<br>Mikrotik Class VLAN
+<br>Mikrotik Server VLAN
+<br><a data-href="Netgate Firewall" href="Networking Infastructure\Netgate Firewall.html" class="internal-link" target="_self" rel="noopener nofollow">Netgate Firewall</a>
+
+
+<br>Internet Services
+
+<br>Cloudflare
+<br>Google
+
+
+<br>Servers
+
+<br>AD DNS
+<br><a data-href="Cloud9" href="Servers\Cloud9.html" class="internal-link" target="_self" rel="noopener nofollow">Cloud9</a>
+<br><a data-href="Cyberdyne" href="Servers\Cyberdyne.html" class="internal-link" target="_self" rel="noopener nofollow">Cyberdyne</a>
+<br><a data-href="Funion Server" href="Servers\Funion Server.html" class="internal-link" target="_self" rel="noopener nofollow">Funion Server</a>
+<br><a data-href="Kronos" href="Servers\Kronos.html" class="internal-link" target="_self" rel="noopener nofollow">Kronos</a>
+<br><a data-href="Tailscale" href="Servers\Tailscale.html" class="internal-link" target="_self" rel="noopener nofollow">Tailscale</a>
+
+
+]]></description><link>Servers\Uptime.html</link><guid isPermaLink="false">Servers/Uptime.md</guid><pubDate>Fri, 21 Feb 2025 16:32:07 GMT</pubDate></item><item><title><![CDATA[Programs]]></title><description><![CDATA[ 
  <br><br><br>Below is the list of all software tools with descriptions installed by default on the golden image.<br>
 <br>Chrome - Web browser
 <br>Firefox - Web browser
@@ -252,4 +222,34 @@ winget install Famatech.AdvancedIPScanner --scope machine -h
 winget install Insecure.Nmap --scope machine -h
 
 pause
-]]></description><link>work-pcs\programs.html</link><guid isPermaLink="false">Work PCs/Programs.md</guid><pubDate>Fri, 21 Feb 2025 02:16:31 GMT</pubDate></item></channel></rss>
+]]></description><link>Work PCs\Programs.html</link><guid isPermaLink="false">Work PCs/Programs.md</guid><pubDate>Fri, 21 Feb 2025 02:16:31 GMT</pubDate></item><item><title><![CDATA[PC Overview]]></title><description><![CDATA[ 
+ <br><br>The current class work PCs are Minisforum Venus UM773 Lite's. They have the following specs:<br>
+<br>CPU: AMD Ryzen 7 7735HS
+<br>Graphics: AMD Radeon 680M
+<br>RAM: 32 GB DDR5
+<br>Storage: 1 TB NVMe SSD
+<br>OS: Windows 11 Pro
+<br>Wi-Fi/Bluetooth: Wi-Fi 6, BT 5.2
+<br>Ports/Buttons:
+
+<br>RJ45 2.5 Gigabit Ethernet Port ×1  
+<br>USB3.2 Gen2 Type-C ×1 (Data Transfer, Right)  
+<br>USB3.2 Gen2 Type-A ×2  
+<br>USB2.0 Type-A ×2  
+<br>USB4 Type-C ×1 (Left)  
+<br>HDMI ×2  
+<br>Clear CMOS ×1  
+<br>DMIC ×1  
+<br>3.5mm Combo Jack ×1
+
+
+]]></description><link>Work PCs\Work PCs.html</link><guid isPermaLink="false">Work PCs/Work PCs.md</guid><pubDate>Fri, 21 Feb 2025 02:16:55 GMT</pubDate></item><item><title><![CDATA[Introduction]]></title><description><![CDATA[ 
+ <br>Welcome to the Computer Information System documentation site. Here you can find written explanations for just about anything in the room.<br><br>
+<br><a data-href="Work PCs" href="Work PCs\Work PCs.html" class="internal-link" target="_self" rel="noopener nofollow">Work PCs</a>
+<br><a data-href="Servers" href="Servers\Servers.html" class="internal-link" target="_self" rel="noopener nofollow">Servers</a>
+<br><a data-href="Network Overview" href="Networking Infastructure\Network Overview.html" class="internal-link" target="_self" rel="noopener nofollow">Network Overview</a>
+<br><a data-href="Guides" href="Guides\Guides.html" class="internal-link" target="_self" rel="noopener nofollow">Guides</a>
+<br><br>(Names redacted for privacy)<br>
+<br>Connor S
+<br>Andrew B
+]]></description><link>Introduction.html</link><guid isPermaLink="false">Introduction.md</guid><pubDate>Fri, 21 Feb 2025 16:35:25 GMT</pubDate></item></channel></rss>
