@@ -1,6 +1,6 @@
 {
   "vaultName": "Eno Docs",
-  "lastExport": 1740164079246,
+  "lastExport": 1741354564783,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -18,6 +18,12 @@
     "images/Pasted image 20250221133546.png",
     "images/Pasted image 20250221133616.png",
     "images/Pasted image 20250221133638.png",
+    "images/Pasted image 20250307081658.png",
+    "images/Pasted image 20250307081836.png",
+    "images/Pasted image 20250307082042.png",
+    "images/Pasted image 20250307082219.png",
+    "images/Pasted image 20250307082255.png",
+    "images/Pasted image 20250307082335.png",
     "Networking Infastructure/Comcast Modem.md",
     "Networking Infastructure/Detailed Network Explanation.md",
     "Networking Infastructure/Mikrotik L3 Core Switch.md",
@@ -28,7 +34,7 @@
     "Servers/Funion Server.md",
     "Servers/Hampstead.md",
     "Servers/Kronos.md",
-    "Servers/Servers.md",
+    "Servers/Server Overview's.md",
     "Servers/Tailscale.md",
     "Servers/Uptime.md",
     "Work PCs/Programs.md",
@@ -67,255 +73,291 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "Guides/Networking Configuration/Router Configuration Reference.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 232,
       "exportedPath": "Guides/Networking Configuration/Router Configuration Reference.html",
       "dependencies": []
     },
     "Guides/Networking Configuration/Switch Configuration Reference.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 282,
       "exportedPath": "Guides/Networking Configuration/Switch Configuration Reference.html",
       "dependencies": []
     },
     "Guides/Virtualization/Proxmox-VM.md": {
-      "modifiedTime": 1740164079246,
-      "sourceSize": 2195,
+      "modifiedTime": 1741354564783,
+      "sourceSize": 1962,
       "exportedPath": "Guides/Virtualization/Proxmox-VM.html",
       "dependencies": []
     },
     "Guides/Virtualization/Virtualization.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 189,
       "exportedPath": "Guides/Virtualization/Virtualization.html",
       "dependencies": []
     },
     "Guides/Guides.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 231,
       "exportedPath": "Guides/Guides.html",
       "dependencies": []
     },
     "Networking Infastructure/Comcast Modem.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 176,
       "exportedPath": "Networking Infastructure/Comcast Modem.html",
       "dependencies": []
     },
     "Networking Infastructure/Detailed Network Explanation.md": {
-      "modifiedTime": 1740164079246,
-      "sourceSize": 2047,
+      "modifiedTime": 1741354564783,
+      "sourceSize": 2057,
       "exportedPath": "Networking Infastructure/Detailed Network Explanation.html",
       "dependencies": []
     },
     "Networking Infastructure/Mikrotik L3 Core Switch.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 47,
       "exportedPath": "Networking Infastructure/Mikrotik L3 Core Switch.html",
       "dependencies": []
     },
     "Networking Infastructure/Netgate Firewall.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 43,
       "exportedPath": "Networking Infastructure/Netgate Firewall.html",
       "dependencies": []
     },
     "Networking Infastructure/Network Overview.md": {
-      "modifiedTime": 1740164079246,
-      "sourceSize": 599,
+      "modifiedTime": 1741354564783,
+      "sourceSize": 617,
       "exportedPath": "Networking Infastructure/Network Overview.html",
       "dependencies": []
     },
     "Servers/Cloud9.md": {
-      "modifiedTime": 1740164079246,
-      "sourceSize": 427,
+      "modifiedTime": 1741354564783,
+      "sourceSize": 623,
       "exportedPath": "Servers/Cloud9.html",
       "dependencies": []
     },
     "Servers/Cyberdyne.md": {
-      "modifiedTime": 1740164079246,
-      "sourceSize": 339,
+      "modifiedTime": 1741354564783,
+      "sourceSize": 30128,
       "exportedPath": "Servers/Cyberdyne.html",
       "dependencies": []
     },
     "Servers/Funion Server.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 0,
       "exportedPath": "Servers/Funion Server.html",
       "dependencies": []
     },
     "Servers/Hampstead.md": {
-      "modifiedTime": 1740164079246,
-      "sourceSize": 0,
+      "modifiedTime": 1741354564783,
+      "sourceSize": 9,
       "exportedPath": "Servers/Hampstead.html",
       "dependencies": []
     },
     "Servers/Kronos.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 165,
       "exportedPath": "Servers/Kronos.html",
       "dependencies": []
     },
-    "Servers/Servers.md": {
-      "modifiedTime": 1740164079246,
-      "sourceSize": 437,
-      "exportedPath": "Servers/Servers.html",
-      "dependencies": []
-    },
     "Servers/Tailscale.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 0,
       "exportedPath": "Servers/Tailscale.html",
       "dependencies": []
     },
     "Servers/Uptime.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 530,
       "exportedPath": "Servers/Uptime.html",
       "dependencies": []
     },
     "Work PCs/Programs.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 1987,
       "exportedPath": "Work PCs/Programs.html",
       "dependencies": []
     },
     "Work PCs/Work PCs.md": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 584,
       "exportedPath": "Work PCs/Work PCs.html",
       "dependencies": []
     },
     "images/Pasted image 20250221133111.png": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 18883,
       "exportedPath": "images/Pasted image 20250221133111.png",
       "dependencies": []
     },
     "images/Pasted image 20250221133150.png": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 46813,
       "exportedPath": "images/Pasted image 20250221133150.png",
       "dependencies": []
     },
     "images/Pasted image 20250221133209.png": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 66649,
       "exportedPath": "images/Pasted image 20250221133209.png",
       "dependencies": []
     },
     "images/Pasted image 20250221133242.png": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 77952,
       "exportedPath": "images/Pasted image 20250221133242.png",
       "dependencies": []
     },
     "images/Pasted image 20250221133546.png": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 65769,
       "exportedPath": "images/Pasted image 20250221133546.png",
       "dependencies": []
     },
     "images/Pasted image 20250221133616.png": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 42687,
       "exportedPath": "images/Pasted image 20250221133616.png",
       "dependencies": []
     },
     "images/Pasted image 20250221133638.png": {
-      "modifiedTime": 1740164079246,
+      "modifiedTime": 1741354564783,
       "sourceSize": 37245,
       "exportedPath": "images/Pasted image 20250221133638.png",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1740164079246,
-      "sourceSize": 306,
+      "modifiedTime": 1741354564783,
+      "sourceSize": 316,
       "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "images/Pasted image 20250307081658.png": {
+      "modifiedTime": 1741354564783,
+      "sourceSize": 35859,
+      "exportedPath": "images/Pasted image 20250307081658.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20250307081836.png": {
+      "modifiedTime": 1741354564783,
+      "sourceSize": 35859,
+      "exportedPath": "images/Pasted image 20250307081836.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20250307082042.png": {
+      "modifiedTime": 1741354564783,
+      "sourceSize": 21143,
+      "exportedPath": "images/Pasted image 20250307082042.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20250307082219.png": {
+      "modifiedTime": 1741354564783,
+      "sourceSize": 12700,
+      "exportedPath": "images/Pasted image 20250307082219.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20250307082255.png": {
+      "modifiedTime": 1741354564783,
+      "sourceSize": 107748,
+      "exportedPath": "images/Pasted image 20250307082255.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20250307082335.png": {
+      "modifiedTime": 1741354564783,
+      "sourceSize": 13747,
+      "exportedPath": "images/Pasted image 20250307082335.png",
+      "dependencies": []
+    },
+    "Servers/Server Overview's.md": {
+      "modifiedTime": 1741354564783,
+      "sourceSize": 437,
+      "exportedPath": "Servers/Server Overview's.html",
       "dependencies": []
     }
   }
