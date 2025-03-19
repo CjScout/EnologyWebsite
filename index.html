@@ -9,41 +9,147 @@
   <meta name="keywords" content="Enology">
   <meta name="author" content="Connor Schuler">
   <link href="./style.css" rel="stylesheet" type="text/css"/>
+
+  <link href="./bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-<div id="wrapper"> <!--Parent of all elements-->
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+        <span class="fs-4">Professor Eno</span>
+      </a>
 
-  <!--Top Bar-->
-  <div id="topBar">
-    <a id="Eno" style="color:blue;" href="./index.html"><img id="Eno" src="professor-eno.png" alt="Eno"></a>
-    <a id="l1" style="color:blue;" href="./index.html"><h2 style="color:blue;" id="l1">Home</h2></a>
-    <a id="l2" style="color:blue;" href="https://docs.professoreno.com"><h2 style="color:blue;" id="l2">Room Documentation</h2></a>
-    <h2 id="l3">Enology Video Library</h2>
-    <h2 id="l4">About the Room</h2>
-    <a id="l5" style="color:blue;" href="./courses.html"><h2 style="color:blue;" id="l5">About Each Course</h2></a>
-    <a id="l6" style="color:blue;" style="color:blue;" href="https://labsimapp.testout.com/v6_0_536/index.html"><h2 style="color:blue;" id="l6">Testout Login</h2></a>
-    <a id="l7" style="color:blue;" href="https://id.cisco.com/login/login.htm"><h2 style="color:blue;" id="l7">Cisco NetAcademy Login</h2></a>
-    <a id="l8" style="color:blue;" href="https://ip.professoreno.com"><h2 style="color:blue;" id="l8">IPv4 Visualizer</h2></a>
-    <a id="l9" style="color:blue;" href="http://192.168.30.8:8006"><h2 style="color:blue;" id="l9">Virtual Machine Server</h2></a>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="https://professoreno.com" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="./pa.html" class="nav-link">PA CIS Resources</a></li>
+        <li class="nav-item"><a href="./mcc.html" class="nav-link">MCC Resources</a></li>
+        <li class="nav-item"><a href="./nhti.html" class="nav-link">NHTI Resources</a></li>
+        <li class="nav-item"><a href="mailto:mikeeno@gmail.com" class="nav-link">About/Contact</a></li>
+
+      </ul>
+    </header>
   </div>
 
-  <div id="tiles">
-    <h2 id="c1">IT Fundamentals</h2>
-    <h2 id="c2">PC Pro</h2>
-    <h2 id="c3">Network Pro</h2>
-    <h2 id="c4">Linux Pro</h2>
-    <h2 id="c5">CCNA Introduction to Networks</h2>
-    <h2 id="c6">CCNA Switching, Routing & Wireless Essentials</h2>
-    <h2 id="c7">Hybrid Server Pro</h2>
-    <h2 id="c8">Routing and Switching Pro</h2>
-    <h2 id="c9">Security Pro</h2>
-    <h2 id="c10">Cyberdefense Pro</h2>
-    <h2 id="c11">Cybersecurity Essentials</h2>
+  <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom">Pinkerton Academy CIS Classes by Certification</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CT0648 - IT Fundamentals</h3>
+          <p>CIS 1 Semester 1</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CT0648 - PC Pro</h3>
+          <p>CIS 1 Semester 2</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CT0649 - Network Pro</h3>
+          <p>CIS 2 Opt 1 Semester 1</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CT0649 - Linux Pro</h3>
+          <p>CIS 2 Opt 1 Semester 2</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CT0649 - CCNA Introduction to Networks</h3>
+          <p>CIS Opt 2 Semester 1</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CT0649 - CCNA Switching, Routing & Wireless Essentials</h3>
+          <p>CIS Opt 2 Semester 2</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CT650 Independent Study - Security Pro</h3>
+          <p>CIS 3 Opt 1</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CT650 Independent Study - Cyberdefense Pro</h3>
+          <p>CIS 3 Opt 2</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CT650 Independent Study - Ethical Hacking Pro</h3>
+          <p>CIS 3 Opt 3</p>
+        </div>
+      </div>
   </div>
-  
-</div>
+
+  <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom">Community College Classes</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-3 py-5">
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CompTIA A+ Hardware</h3>
+          <p>Manchester Community College</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CompTIA A+ Software</h3>
+          <p>Manchester Community College</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Intro to Computers</h3>
+          <p>Manchester Community College</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CCNA Intro to Networking</h3>
+          <p>NHTI</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CompTIA Security+</h3>
+          <p>NHTI</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"/></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Intro to IoT + Python</h3>
+          <p>NHTI</p>
+        </div>
+      </div>
+    </div>
+  </div>
   
 </body>
 </html>
